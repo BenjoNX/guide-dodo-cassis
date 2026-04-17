@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marseille — Dodo &agrave; Cassis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="index.html" class="nav__logo">
+                <img src="dodo_cassis_capcanaille_gold.png" alt="Dodo &agrave; Cassis" class="nav__logo-img">
+                <span class="nav__logo-text">Dodo <em>&agrave;</em> Cassis</span>
+            </a>
+            <ul class="nav__links" id="navLinks">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="visiter-la-ciotat.html">La Ciotat</a></li>
+                <li><a href="visiter-aix.html">Aix-en-Provence</a></li>
+                <li><a href="visiter-environs.html">Le Var &amp; la Provence</a></li>
+                <li><a href="https://dodo-a-cassis.com" target="_blank">Nos locations</a></li>
+            </ul>
+            <button class="nav__mobile-toggle" id="mobileToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero hero--sub">
+        <div class="hero__bg"></div>
+        <div class="hero__pattern"></div>
+        <div class="hero__content">
+            <a href="index.html" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                Retour au guide
+            </a>
+            <p class="hero__label">Escapades</p>
+            <h1 class="hero__title"><em>Marseille</em></h1>
+            <p class="hero__subtitle">
+                La cit&eacute; phoc&eacute;enne, plus ancienne ville de France, offre un m&eacute;lange envo&ucirc;tant de culture, d'histoire et de Mediterran&eacute;e &mdash; &agrave; seulement 30 minutes de Cassis.
+            </p>
+            <div class="distance-banner">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                30 min en voiture depuis Cassis
+            </div>
+        </div>
+        <div class="hero__deco"></div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro-section">
+        <div class="container">
+            <div class="reveal">
+                <p class="intro-text">
+                    Marseille est une ville qui se vit. Du <strong>Vieux-Port</strong> au <strong>quartier du Panier</strong>, des mus&eacute;es d'exception aux calanques sauvages, chaque coin de rue raconte 2 600 ans d'histoire. Profitez de votre s&eacute;jour &agrave; Cassis pour consacrer une journ&eacute;e &agrave; la d&eacute;couverte de cette m&eacute;tropole m&eacute;diterran&eacute;enne.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ACTIVITIES -->
+    <section class="activities-section">
+        <div class="container">
+            <div class="reveal">
+                <p class="section-label">&Agrave; d&eacute;couvrir</p>
+                <h2 class="section-title">Les incontournables</h2>
+                <p class="section-subtitle">
+                    Patrimoine, mus&eacute;es, nature et gastronomie &mdash; Marseille a tout pour plaire.
+                </p>
+            </div>
+            <div class="activities-grid">
+
+                <!-- Le Vieux-Port -->
+                <div class="activity-card reveal reveal-delay-1">
+                    <div class="activity-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 20s2-2 6-2 6 2 10 2 4-2 4-2"/><path d="M4 16l5.5-11 2.5 5 2.5-5L20 16"/>
+                        </svg>
+                    </div>
+                    <h3>Le Vieux-Port</h3>
+                    <p>
+                        C&oelig;ur battant de Marseille depuis l'Antiquit&eacute;. March&eacute; aux poissons chaque matin, terrasses, bateaux de p&ecirc;che color&eacute;s et l'omni&egrave;re Norman Foster. Point de d&eacute;part id&eacute;al pour explorer la ville.
+                    </p>
+                    <div class="activity-card__info">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>M&eacute;tro Vieux-Port &mdash; March&eacute; aux poissons tous les matins</span>
+                    </div>
+                </div>
+
+                <!-- Le Panier -->
+                <div class="activity-card reveal reveal-delay-2">
+                    <div class="activity-card__icon activity-card__icon--gold">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 21h18M9 8h1M9 12h1M9 16h1M14 8h1M14 12h1M14 16h1M5 21V5a2 2 0 012-2h10a2 2 0 012 2v16"/>
+                        </svg>
+                    </div>
+                    <h3>Le quartier du Panier</h3>
+                    <p>
+                        Plus vieux quartier de Marseille et de France. Ruelles &eacute;troites, street art, ateliers d'artistes, boutiques ind&eacute;pendantes et la majestueuse Vieille Charit&eacute;. Un village dans la ville.
+                    </p>
+                    <div class="activity-card__info">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        <span>Pr&eacute;voir 2 &agrave; 3 heures de balade</span>
+                    </div>
+                </div>
+
+                <!-- Mucem -->
+                <div class="activity-card reveal reveal-delay-3">
+                    <div class="activity-card__icon activity-card__icon--purple">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 7l10-4 10 4-10 4-10-4z"/><path d="M6 10v4c0 2 3.5 4 6 4s6-2 6-4v-4"/>
+                        </svg>
+                    </div>
+                    <h3>Le Mucem</h3>
+                    <p>
+                        Mus&eacute;e des Civilisations de l'Europe et de la M&eacute;diterran&eacute;e &mdash; architecture spectaculaire sign&eacute;e Rudy Ricciotti. Collections permanentes et expositions temporaires dans un b&acirc;timent iconique au bord de l'eau.
+                    </p>
+                    <a href="https://www.mucem.org/" target="_blank" class="activity-card__cta">
+                        Site officiel du Mucem
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+
+                <!-- Grotte Cosquer -->
+                <div class="activity-card reveal reveal-delay-1">
+                    <div class="activity-card__icon activity-card__icon--gold">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 3l8 4.5v9L12 21l-8-4.5v-9L12 3z"/><path d="M12 12l8-4.5M12 12v9M12 12L4 7.5"/>
+                        </svg>
+                    </div>
+                    <span class="activity-card__badge activity-card__badge--highlight">Coup de c&oelig;ur</span>
+                    <h3>Cosquer M&eacute;diterran&eacute;e</h3>
+                    <p>
+                        R&eacute;plique immersive de la grotte Cosquer, d&eacute;couverte sous la mer dans les calanques. Art rupestre vieux de 33 000 ans, visite en modules autonomes. Une exp&eacute;rience unique et spectaculaire pour toute la famille.
+                    </p>
+                    <div class="activity-card__info activity-card__info--price">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        <span>18 &euro; adulte &middot; 11 &euro; (10-17 ans) &middot; 6 &euro; (6-9 ans)</span>
+                    </div>
+                    <a href="https://www.grotte-cosquer.com/" target="_blank" class="activity-card__cta">
+                        R&eacute;server en ligne
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V8H8"/></svg>
+                    </a>
+                </div>
+
+                <!-- Calanques de Marseille -->
+                <div class="activity-card reveal reveal-delay-2">
+                    <div class="activity-card__icon activity-card__icon--green">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3>Les calanques de Marseille</h3>
+                    <p>
+                        Sormiou et Morgiou, les grandes s&oelig;urs des calanques de Cassis. Acc&egrave;s en voiture limit&eacute; en saison, privil&eacute;giez la randonn&eacute;e. Paysages &agrave; couper le souffle et baignade dans des criques sauvages.
+                    </p>
+                    <div class="activity-card__info">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c4-4 8-7.5 8-12a8 8 0 10-16 0c0 4.5 4 8 8 12z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>Acc&egrave;s voiture limit&eacute; en &eacute;t&eacute; &mdash; App MesCalanques recommand&eacute;e</span>
+                    </div>
+                </div>
+
+                <!-- Notre-Dame de la Garde -->
+                <div class="activity-card reveal reveal-delay-3">
+                    <div class="activity-card__icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M3 21h18M9 8h1M9 12h1M9 16h1M14 8h1M14 12h1M14 16h1M5 21V5a2 2 0 012-2h10a2 2 0 012 2v16"/>
+                        </svg>
+                    </div>
+                    <h3>Notre-Dame de la Garde</h3>
+                    <p>
+                        La &laquo; Bonne M&egrave;re &raquo;, sentinelle de Marseille, domine la ville &agrave; 154 m&egrave;tres d'altitude. Panorama &agrave; 360&deg; sur la ville, le port, les &icirc;les du Frioul et les calanques. Entr&eacute;e libre.
+                    </p>
+                    <div class="activity-card__info">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 1116 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        <span>Acc&egrave;s en voiture, bus ou &agrave; pied &mdash; Entr&eacute;e libre</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RETOUR AU GUIDE -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="reveal">
+                <p class="section-label">Explorer</p>
+                <h2 class="section-title">Envie de d&eacute;couvrir d'autres destinations ?</h2>
+                <p class="section-subtitle">
+                    Retrouvez toutes nos recommandations dans le guide complet.
+                </p>
+            </div>
+            <div class="reveal reveal-delay-1">
+                <a href="index.html" class="btn-back">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    Retour au guide complet
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__brand">
+                    <img src="dodo_cassis_capcanaille_gold.png" alt="Dodo &agrave; Cassis" style="width:56px;height:56px;border-radius:50%;margin-bottom:1rem;border:1px solid rgba(196,164,105,0.3);">
+                    <h3>Dodo &agrave; Cassis</h3>
+                    <p>Conciergerie et gestion locative courte dur&eacute;e &agrave; Cassis. 64 biens g&eacute;r&eacute;s, 3 112 avis, 7 ans d'exp&eacute;rience locale.</p>
+                    <div class="footer__socials">
+                        <a href="https://www.facebook.com/DodoaCassis/" target="_blank" class="footer__social-link" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        </a>
+                        <a href="https://www.instagram.com/dodo_a_cassis/" target="_blank" class="footer__social-link" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+                        </a>
+                        <a href="https://dodo-a-cassis.com" target="_blank" class="footer__social-link" aria-label="Site web">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__col">
+                    <h4>&Agrave; visiter</h4>
+                    <ul>
+                        <li><a href="visiter-la-ciotat.html">La Ciotat</a></li>
+                        <li><a href="visiter-marseille.html">Marseille</a></li>
+                        <li><a href="visiter-aix.html">Aix-en-Provence</a></li>
+                        <li><a href="visiter-environs.html">Le Var &amp; la Provence</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h4>Liens utiles</h4>
+                    <ul>
+                        <li><a href="index.html">Guide complet</a></li>
+                        <li><a href="https://dodo-a-cassis.com" target="_blank">Nos locations</a></li>
+                        <li><a href="https://www.ot-cassis.com" target="_blank">Office de Tourisme</a></li>
+                        <li><a href="https://www.instagram.com/dodo_a_cassis/" target="_blank">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 La Conciergerie Cassidaine &mdash; Dodo &agrave; Cassis</p>
+                <p class="footer__legal">SIRET 844 284 810 &middot; RCS Marseille</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) entry.target.classList.add('visible');
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        reveals.forEach(el => observer.observe(el));
+
+        const nav = document.getElementById('nav');
+        window.addEventListener('scroll', () => {
+            nav.classList.toggle('scrolled', window.scrollY > 20);
+        });
+
+        const toggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+        toggle.addEventListener('click', () => {
+            toggle.classList.toggle('active');
+            navLinks.classList.toggle('open');
+        });
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                toggle.classList.remove('active');
+                navLinks.classList.remove('open');
+            });
+        });
+    </script>
+
+</body>
+</html>
