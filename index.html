@@ -41,10 +41,14 @@
     <!-- ==========================================
          HERO
          ========================================== -->
-    <section class="hero">
-        <div class="hero__bg"></div>
-        <div class="hero__pattern"></div>
-        <div class="hero__content">
+    <section class="hero" style="overflow:hidden;">
+        <!-- Video drone background -->
+        <div style="position:absolute;inset:0;z-index:0;">
+            <iframe src="https://www.youtube.com/embed/UbqbiJ9AveE?autoplay=1&mute=1&loop=1&playlist=UbqbiJ9AveE&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1&start=4" frameborder="0" allow="autoplay" allowfullscreen style="position:absolute;top:50%;left:50%;width:180%;height:180%;transform:translate(-50%,-50%);pointer-events:none;"></iframe>
+        </div>
+        <!-- Overlay gradient -->
+        <div style="position:absolute;inset:0;z-index:1;background:linear-gradient(to bottom,rgba(18,43,64,0.7) 0%,rgba(28,62,92,0.85) 100%);"></div>
+        <div class="hero__content" style="z-index:2;position:relative;">
             <div class="hero__logo-wrapper">
                 <img src="dodo_cassis_capcanaille_gold.png" alt="Dodo à Cassis" class="hero__logo">
             </div>
@@ -75,15 +79,11 @@
                     Restaurants, lieux à visiter, jours de marché, locations de bateaux et vélos... Tout ce dont vous avez besoin, géolocalisé.
                 </p>
             </div>
-            <div class="carte__map-placeholder reveal reveal-delay-1">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                    <circle cx="12" cy="10" r="3"/>
-                </svg>
-                <p>Cliquez sur un point pour en savoir plus.<br>Utilisez le mode plein écran et guidez-vous avec votre GPS.</p>
+            <div class="reveal reveal-delay-1" style="width:100%;border-radius:12px;overflow:hidden;margin-top:2.5rem;box-shadow:0 10px 40px rgba(28,62,92,0.1);">
+                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1ZBq6OfjT7y-u83mIztomYptnmdU&ll=43.20346882754553%2C5.52403824956853&z=13" width="100%" height="500" style="border:0;display:block;" allowfullscreen loading="lazy"></iframe>
             </div>
-            <p class="carte__map-hint reveal reveal-delay-2">
-                <em>English subtitles available</em>
+            <p class="carte__map-hint reveal reveal-delay-2" style="font-size:13px;color:var(--text-light);margin-top:1rem;">
+                <em>Cliquez sur un point pour en savoir plus. Utilisez le mode plein écran pour vous guider avec votre GPS.</em>
             </p>
         </div>
     </section>
@@ -95,15 +95,15 @@
         <div class="container" style="padding-top:var(--section-padding);padding-bottom:calc(var(--section-padding) * 0.5);">
             <div class="reveal" style="text-align:center;">
                 <p class="section-label" style="justify-content:center;color:var(--gold-light);"><span style="display:inline-block;width:32px;height:1px;background:var(--gold-light);margin-right:12px;vertical-align:middle;"></span>Découvrir</p>
-                <h2 class="section-title" style="color:#fff;">Cassis vu du ciel</h2>
+                <h2 class="section-title" style="color:#fff;">Découvrir Cassis en vidéo</h2>
                 <p class="section-subtitle" style="color:rgba(255,255,255,0.55);margin:0 auto 2rem;">
-                    Trois minutes de survol des calanques pour comprendre pourquoi cet endroit est unique au monde.
+                    Nos recommandations pour visiter Cassis et ses environs — restaurants, activités, balades et bons plans.
                 </p>
             </div>
         </div>
         <div style="max-width:1000px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem) var(--section-padding);">
             <div class="reveal reveal-delay-1" style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.3);">
-                <iframe src="https://www.youtube.com/embed/NmuEQiKM3h4?rel=0&modestbranding=1" title="Les Calanques de Cassis vues par drone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                <iframe src="https://www.youtube.com/embed/mKFHBfoegTI?rel=0&modestbranding=1" title="Carte interactive de Cassis — Dodo à Cassis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
             </div>
         </div>
     </section>
