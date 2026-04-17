@@ -41,14 +41,10 @@
     <!-- ==========================================
          HERO
          ========================================== -->
-    <section class="hero" style="overflow:hidden;">
-        <!-- Video drone background -->
-        <div style="position:absolute;inset:0;z-index:0;">
-            <iframe src="https://www.youtube.com/embed/UbqbiJ9AveE?autoplay=1&mute=1&loop=1&playlist=UbqbiJ9AveE&controls=0&showinfo=0&modestbranding=1&rel=0&playsinline=1&start=4" frameborder="0" allow="autoplay" allowfullscreen style="position:absolute;top:50%;left:50%;width:180%;height:180%;transform:translate(-50%,-50%);pointer-events:none;"></iframe>
-        </div>
-        <!-- Overlay gradient -->
-        <div style="position:absolute;inset:0;z-index:1;background:linear-gradient(to bottom,rgba(18,43,64,0.7) 0%,rgba(28,62,92,0.85) 100%);"></div>
-        <div class="hero__content" style="z-index:2;position:relative;">
+    <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__pattern"></div>
+        <div class="hero__content">
             <div class="hero__logo-wrapper">
                 <img src="dodo_cassis_capcanaille_gold.png" alt="Dodo à Cassis" class="hero__logo">
             </div>
@@ -97,12 +93,17 @@
                 <p class="section-label" style="justify-content:center;color:var(--gold-light);"><span style="display:inline-block;width:32px;height:1px;background:var(--gold-light);margin-right:12px;vertical-align:middle;"></span>Découvrir</p>
                 <h2 class="section-title" style="color:#fff;">Découvrir Cassis en vidéo</h2>
                 <p class="section-subtitle" style="color:rgba(255,255,255,0.55);margin:0 auto 2rem;">
-                    Nos recommandations pour visiter Cassis et ses environs — restaurants, activités, balades et bons plans.
+                    Survol en drone et nos recommandations pour visiter Cassis et ses environs.
                 </p>
             </div>
         </div>
-        <div style="max-width:1000px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem) var(--section-padding);">
-            <div class="reveal reveal-delay-1" style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.3);">
+        <div style="max-width:1000px;margin:0 auto;padding:0 clamp(1.5rem,4vw,3rem);">
+            <!-- Video drone -->
+            <div class="reveal reveal-delay-1" style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.3);margin-bottom:2rem;">
+                <iframe src="https://www.youtube.com/embed/UbqbiJ9AveE?rel=0&modestbranding=1&start=4" title="Cassis vu du ciel — Drone" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+            </div>
+            <!-- Video carte interactive -->
+            <div class="reveal reveal-delay-2" style="position:relative;padding-bottom:56.25%;height:0;border-radius:12px;overflow:hidden;box-shadow:0 20px 60px rgba(0,0,0,0.3);">
                 <iframe src="https://www.youtube.com/embed/mKFHBfoegTI?rel=0&modestbranding=1" title="Carte interactive de Cassis — Dodo à Cassis" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
             </div>
         </div>
@@ -481,9 +482,18 @@
                     <a href="https://www.instagram.com/dodo_a_cassis/" target="_blank">@dodo_a_cassis</a>
                 </p>
             </div>
-            <div class="reveal reveal-delay-1" style="max-width:900px;margin:0 auto;">
-                <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-                <iframe src="//lightwidget.com/widgets/7e341b9d7c6d536e912bcbc1f1edbffc.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>
+            <div class="reveal reveal-delay-1" style="max-width:600px;margin:0 auto;">
+                <a href="https://www.instagram.com/dodo_a_cassis/" target="_blank" style="display:block;background:var(--white);border-radius:16px;padding:2.5rem;text-align:center;text-decoration:none;border:1px solid rgba(28,62,92,0.06);box-shadow:0 10px 40px rgba(28,62,92,0.06);transition:transform 0.3s,box-shadow 0.3s;">
+                    <div style="width:80px;height:80px;margin:0 auto 1.5rem;border-radius:50%;background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);display:flex;align-items:center;justify-content:center;">
+                        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5"/></svg>
+                    </div>
+                    <p style="font-family:var(--font-display);font-size:1.5rem;color:var(--blue);margin-bottom:0.5rem;">@dodo_a_cassis</p>
+                    <p style="font-size:13px;color:var(--text-light);margin-bottom:1.5rem;line-height:1.7;">Photos de Cassis, coulisses, bons plans et couchers de soleil sur le port.</p>
+                    <span style="display:inline-flex;align-items:center;gap:8px;padding:12px 28px;border-radius:50px;background:linear-gradient(45deg,#f09433,#e6683c,#dc2743);color:#fff;font-size:13px;font-weight:600;">
+                        Voir notre Instagram
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </span>
+                </a>
             </div>
             <div class="instagram__follow reveal reveal-delay-2">
                 <a href="https://www.instagram.com/dodo_a_cassis/" target="_blank" class="btn-instagram">
