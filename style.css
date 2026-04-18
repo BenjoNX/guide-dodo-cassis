@@ -870,15 +870,19 @@ section {
 }
 
 .calanques__app-icon {
-    width: 80px;
-    height: 80px;
+    width: 88px;
+    height: 88px;
     margin: 0 auto 1.5rem;
-    border-radius: 20px;
-    background: linear-gradient(135deg, #2E7D32, #43A047);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 8px 24px rgba(28, 62, 92, 0.15);
+}
+
+.calanques__app-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .calanques__app h3 {
