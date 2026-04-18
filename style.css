@@ -283,7 +283,7 @@ section {
     position: absolute;
     inset: 0;
     background:
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.15) 40%, rgba(0, 0, 0, 0.55) 100%),
+        linear-gradient(to right, rgba(10, 25, 45, 0.85) 0%, rgba(10, 25, 45, 0.55) 40%, rgba(10, 25, 45, 0.2) 75%, rgba(0, 0, 0, 0.15) 100%),
         url('photo-cassis-port.jpg') center/cover no-repeat;
 }
 
@@ -343,6 +343,7 @@ section {
     line-height: 1.05;
     color: #fff;
     margin-bottom: 1.5rem;
+    text-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
     max-width: 700px;
     opacity: 0;
     animation: fadeUp 1s 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
@@ -356,10 +357,11 @@ section {
 .hero__subtitle {
     font-family: var(--font-body);
     font-size: clamp(14px, 1.6vw, 16px);
-    font-weight: 300;
-    color: rgba(255, 255, 255, 0.65);
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.92);
     max-width: 480px;
     line-height: 1.9;
+    text-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);
     margin-bottom: 3rem;
     opacity: 0;
     animation: fadeUp 1s 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
@@ -678,34 +680,13 @@ section {
    PARTNERS / BOOKING SECTION
    ======================================== */
 .partners-section {
-    background: var(--blue);
+    background: var(--cream);
     position: relative;
     overflow: hidden;
 }
 
 .partners-section::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(ellipse at 0% 100%, rgba(196, 164, 105, 0.08) 0%, transparent 50%),
-        radial-gradient(ellipse at 100% 0%, rgba(42, 85, 128, 0.15) 0%, transparent 50%);
-}
-
-.partners-section .section-label {
-    color: var(--gold-light);
-}
-
-.partners-section .section-label::before {
-    background: var(--gold-light);
-}
-
-.partners-section .section-title {
-    color: #fff;
-}
-
-.partners-section .section-subtitle {
-    color: rgba(255, 255, 255, 0.55);
+    display: none;
 }
 
 .partners-grid {
@@ -718,18 +699,18 @@ section {
 }
 
 .partner-card {
-    background: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--white);
+    border: 1px solid rgba(28, 62, 92, 0.08);
     border-radius: 16px;
     padding: 2rem;
     transition: all 0.4s ease;
+    box-shadow: 0 4px 20px rgba(28, 62, 92, 0.04);
 }
 
 .partner-card:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(196, 164, 105, 0.3);
+    border-color: rgba(196, 164, 105, 0.4);
     transform: translateY(-4px);
+    box-shadow: 0 12px 40px rgba(28, 62, 92, 0.08);
 }
 
 .partner-card__header {
@@ -748,14 +729,14 @@ section {
     align-items: center;
     justify-content: center;
     background: rgba(196, 164, 105, 0.15);
-    color: var(--gold-light);
+    color: var(--gold-dark);
 }
 
 .partner-card__name {
     font-family: var(--font-display);
     font-size: 1.35rem;
     font-weight: 500;
-    color: #fff;
+    color: var(--blue);
     margin-bottom: 4px;
 }
 
@@ -764,12 +745,12 @@ section {
     font-weight: 500;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    color: var(--gold);
+    color: var(--gold-dark);
 }
 
 .partner-card__desc {
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--text-light);
     line-height: 1.7;
     margin-bottom: 1.5rem;
 }
@@ -793,7 +774,7 @@ section {
 .partner-card__highlight span {
     font-size: 13px;
     font-weight: 500;
-    color: var(--gold-light);
+    color: var(--gold-dark);
 }
 
 .partner-card__cta {
@@ -802,16 +783,17 @@ section {
     gap: 8px;
     font-size: 13px;
     font-weight: 600;
-    color: var(--gold-light);
+    color: var(--gold-dark);
     padding: 10px 20px;
-    border: 1px solid rgba(196, 164, 105, 0.3);
+    border: 1px solid rgba(196, 164, 105, 0.4);
     border-radius: 8px;
     transition: all 0.3s ease;
     text-decoration: none;
+    background: var(--white);
 }
 
 .partner-card__cta:hover {
-    background: rgba(196, 164, 105, 0.15);
+    background: var(--gold);
     border-color: var(--gold);
     color: #fff;
 }
@@ -1422,36 +1404,25 @@ section {
    SUB-PAGE: CTA SECTION (Retour au guide)
    ======================================== */
 .cta-section {
-    background: var(--blue);
+    background: var(--cream);
     text-align: center;
     position: relative;
     overflow: hidden;
 }
 
 .cta-section::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background:
-        radial-gradient(ellipse at 20% 80%, rgba(196, 164, 105, 0.1) 0%, transparent 50%),
-        radial-gradient(ellipse at 80% 20%, rgba(42, 85, 128, 0.2) 0%, transparent 50%);
+    display: none;
 }
 
 .cta-section .section-label {
     justify-content: center;
-    color: var(--gold-light);
 }
 
 .cta-section .section-label::before {
     display: none;
 }
 
-.cta-section .section-title {
-    color: #fff;
-}
-
 .cta-section .section-subtitle {
-    color: rgba(255, 255, 255, 0.55);
     margin: 0 auto 2.5rem;
     max-width: 480px;
 }
