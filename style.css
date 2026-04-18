@@ -977,25 +977,7 @@ section {
     z-index: 0;
 }
 
-.visiter-card--ciotat::before {
-    background: linear-gradient(135deg, #1C3E5C, #2A5580);
-}
-
-.visiter-card--marseille::before {
-    background: linear-gradient(135deg, #122B40, #1C3E5C);
-}
-
-.visiter-card--aix::before {
-    background: linear-gradient(135deg, var(--gold-dark), var(--gold));
-}
-
-.visiter-card--var::before {
-    background: linear-gradient(135deg, #2E5A3F, #43795C);
-}
-
-.visiter-card--loin::before {
-    background: linear-gradient(135deg, #5C4A1C, #8A7440);
-}
+/* Background photos are set inline on each card */
 
 .visiter-card--large {
     grid-column: span 2;
