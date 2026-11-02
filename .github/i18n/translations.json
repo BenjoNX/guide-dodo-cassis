@@ -1,0 +1,1341 @@
+{
+  "Guide pour séjourner à Cassis — Dodo à Cassis": {
+    "en": "Your guide to staying in Cassis — Dodo à Cassis",
+    "de": "Ihr Reiseführer für Cassis — Dodo à Cassis"
+  },
+  "Dodo à Cassis": {
+    "en": "Dodo à Cassis",
+    "de": "Dodo à Cassis",
+    "keep": "brand name"
+  },
+  "Dodo": {
+    "en": "Dodo",
+    "de": "Dodo",
+    "keep": "brand name (logo text Dodo à Cassis)"
+  },
+  "à": {
+    "en": "à",
+    "de": "à",
+    "keep": "brand name (logo text Dodo à Cassis)"
+  },
+  "Cassis": {
+    "en": "Cassis",
+    "de": "Cassis",
+    "keep": "place name"
+  },
+  "Vidéo": {
+    "en": "Video",
+    "de": "Video"
+  },
+  "Carte": {
+    "en": "Map",
+    "de": "Karte"
+  },
+  "Parking": {
+    "en": "Parking",
+    "de": "Parken",
+    "keep": "English word spelled as in French"
+  },
+  "Transport": {
+    "en": "Transport",
+    "de": "Mobilität",
+    "keep": "English word spelled as in French"
+  },
+  "Réservations": {
+    "en": "Bookings",
+    "de": "Buchen"
+  },
+  "Vins": {
+    "en": "Wines",
+    "de": "Weine"
+  },
+  "Calanques": {
+    "en": "Calanques",
+    "de": "Calanques",
+    "keep": "place name (the Calanques massif and national park)"
+  },
+  "Visiter": {
+    "en": "Day trips",
+    "de": "Ausflüge"
+  },
+  "Nos locations": {
+    "en": "Our rentals",
+    "de": "Unterkünfte"
+  },
+  "Menu": {
+    "en": "Menu",
+    "de": "Menü",
+    "keep": "English word spelled as in French"
+  },
+  "Guide pour séjourner": {
+    "en": "Your guide to staying",
+    "de": "Ihr Reiseführer"
+  },
+  "à Cassis": {
+    "en": "in Cassis",
+    "de": "für Cassis"
+  },
+  "Nos conseils pour découvrir Cassis et ses environs — stationnement, transports, activités, et nos meilleures adresses.": {
+    "en": "Our tips for discovering Cassis and the surrounding area — parking, getting around, activities and our favourite places.",
+    "de": "Unsere Tipps für Ihren Aufenthalt in Cassis und Umgebung — Parken, Mobilität, Aktivitäten und unsere besten Adressen."
+  },
+  "Explorer le guide": {
+    "en": "Explore the guide",
+    "de": "Reiseführer entdecken"
+  },
+  "Découvrir": {
+    "en": "Discover",
+    "de": "Entdecken"
+  },
+  "Découvrir Cassis en vidéo": {
+    "en": "Discover Cassis on video",
+    "de": "Cassis im Video entdecken"
+  },
+  "Survol en drone et nos recommandations pour visiter Cassis et ses environs.": {
+    "en": "A drone's-eye view and our recommendations for visiting Cassis and the surrounding area.",
+    "de": "Cassis aus der Drohnenperspektive und unsere Empfehlungen für Ihre Ausflüge in Cassis und Umgebung."
+  },
+  "Cassis vu du ciel — Drone": {
+    "en": "Cassis from the air — Drone",
+    "de": "Cassis von oben — Drohne"
+  },
+  "Carte interactive de Cassis — Dodo à Cassis": {
+    "en": "Interactive map of Cassis — Dodo à Cassis",
+    "de": "Interaktive Karte von Cassis — Dodo à Cassis"
+  },
+  "Explorer": {
+    "en": "Explore",
+    "de": "Erkunden"
+  },
+  "Carte interactive de Cassis": {
+    "en": "Interactive map of Cassis",
+    "de": "Interaktive Karte von Cassis"
+  },
+  "Restaurants, lieux à visiter, jours de marché, locations de bateaux et vélos... Tout ce dont vous avez besoin, géolocalisé.": {
+    "en": "Restaurants, places to visit, market days, boat and bike hire... Everything you need, pinned on the map.",
+    "de": "Restaurants, Sehenswürdigkeiten, Markttage, Boots- und Fahrradverleih... Alles, was Sie brauchen, direkt auf der Karte."
+  },
+  "Cliquez sur un point pour en savoir plus. Utilisez le mode plein écran pour vous guider avec votre GPS.": {
+    "en": "Click on a pin to find out more. Use full-screen mode to find your way with your GPS.",
+    "de": "Klicken Sie auf einen Punkt, um mehr zu erfahren. Im Vollbildmodus können Sie sich per GPS leiten lassen."
+  },
+  "Stationnement": {
+    "en": "Parking",
+    "de": "Parken"
+  },
+  "Se garer à Cassis": {
+    "en": "Parking in Cassis",
+    "de": "Parken in Cassis"
+  },
+  "Le stationnement à Cassis peut être un défi en saison. Voici les meilleures options.": {
+    "en": "Parking in Cassis can be a challenge in high season. Here are the best options.",
+    "de": "In der Saison kann die Parkplatzsuche in Cassis zur Herausforderung werden. Hier finden Sie die besten Möglichkeiten."
+  },
+  "Gratuit": {
+    "en": "Free",
+    "de": "Kostenlos"
+  },
+  "Parking des Gorguettes": {
+    "en": "Gorguettes car park",
+    "de": "Parkplatz Gorguettes"
+  },
+  "235 places gratuites à 2,5 km du centre-ville. Navette (ligne 372) vers le centre pour 1,60 € A/R. La solution idéale en pleine saison.": {
+    "en": "235 free spaces 2,5 km from the town centre. Shuttle bus (line 372) to the centre for 1,60 € return. The ideal option in high season.",
+    "de": "235 kostenlose Stellplätze, 2,5 km vom Ortszentrum entfernt. Shuttlebus (Linie 372) ins Zentrum für 1,60 € hin und zurück. Die ideale Lösung in der Hochsaison."
+  },
+  "Horaires navette :": {
+    "en": "Shuttle times:",
+    "de": "Shuttle-Fahrzeiten:"
+  },
+  "Pâques → juin & sept. : week-ends & vacances 9h-20h. Juillet-août : 7j/7, 9h-minuit.": {
+    "en": "Easter → June & Sept.: weekends & school holidays 9h-20h. July-August: daily, 9h-midnight.",
+    "de": "Ostern → Juni & Sept.: Wochenenden & Schulferien 9h-20h. Juli-August: täglich, 9h-Mitternacht."
+  },
+  "Infos & horaires complets": {
+    "en": "Full info & timetables",
+    "de": "Alle Infos & Fahrpläne"
+  },
+  "Payant": {
+    "en": "Paid",
+    "de": "Kostenpflichtig"
+  },
+  "Parking des Mimosas & Viguerie": {
+    "en": "Mimosas & Viguerie car parks",
+    "de": "Parkplätze Mimosas & Viguerie"
+  },
+  "Les plus proches du centre (Mimosas : 404 places, Viguerie : 299 places). Abonnements disponibles sur place.": {
+    "en": "The closest to the centre (Mimosas: 404 spaces, Viguerie: 299 spaces). Multi-day passes available on site.",
+    "de": "Die zentrumsnächsten Parkplätze (Mimosas: 404 Stellplätze, Viguerie: 299 Stellplätze). Mehrtagestickets vor Ort erhältlich."
+  },
+  "3 jours": {
+    "en": "3 days",
+    "de": "3 Tage"
+  },
+  "4 jours": {
+    "en": "4 days",
+    "de": "4 Tage"
+  },
+  "5 jours": {
+    "en": "5 days",
+    "de": "5 Tage"
+  },
+  "7 jours": {
+    "en": "7 days",
+    "de": "7 Tage"
+  },
+  "Abonnement à prendre au parking des Mimosas, uniquement sur place (pas par téléphone ou internet), sous réserve de disponibilité.": {
+    "en": "Passes are sold at the Mimosas car park, on site only (not by phone or online), subject to availability.",
+    "de": "Die Tickets erhalten Sie nur vor Ort am Parkplatz Mimosas (nicht telefonisch oder online), je nach Verfügbarkeit."
+  },
+  "Se déplacer": {
+    "en": "Getting around",
+    "de": "Unterwegs"
+  },
+  "Transports & transferts": {
+    "en": "Transport & transfers",
+    "de": "Verkehrsmittel & Transfers"
+  },
+  "Bus, navettes et VTC pour vos trajets depuis l'aéroport, la gare ou dans Cassis.": {
+    "en": "Buses, shuttles and private drivers for your journeys from the airport, the station or around Cassis.",
+    "de": "Busse, Shuttles und Fahrdienste für Ihre Fahrten vom Flughafen, vom Bahnhof oder innerhalb von Cassis."
+  },
+  "Bus La Marcouline": {
+    "en": "La Marcouline buses",
+    "de": "Buslinien La Marcouline"
+  },
+  "Réseau de bus Cassis – Carnoux – La Ciotat – Marseille. Correspondances en gare.": {
+    "en": "Bus network serving Cassis – Carnoux – La Ciotat – Marseille. Connections at the railway station.",
+    "de": "Busnetz Cassis – Carnoux – La Ciotat – Marseille. Anschlüsse am Bahnhof."
+  },
+  "Toute l'année": {
+    "en": "All year round",
+    "de": "Ganzjährig"
+  },
+  "Horaires & lignes": {
+    "en": "Timetables & routes",
+    "de": "Fahrpläne & Linien"
+  },
+  "Navettes Gorguettes": {
+    "en": "Gorguettes shuttles",
+    "de": "Shuttlebusse Gorguettes"
+  },
+  "Ligne 372 vers le centre-ville, ligne 373 vers le Bestouan et les calanques. 1,60 € A/R.": {
+    "en": "Line 372 to the town centre, line 373 to Bestouan and the calanques. 1,60 € return.",
+    "de": "Linie 372 ins Ortszentrum, Linie 373 zum Bestouan und zu den Calanques. 1,60 € hin und zurück."
+  },
+  "Pâques → Novembre": {
+    "en": "Easter → November",
+    "de": "Ostern → November"
+  },
+  "Horaires navettes": {
+    "en": "Shuttle timetables",
+    "de": "Shuttle-Fahrpläne"
+  },
+  "TransportBCH": {
+    "en": "TransportBCH",
+    "de": "TransportBCH",
+    "keep": "business name"
+  },
+  "VTC basé à Cassis : transferts aéroport/gare, excursions. Plusieurs véhicules dont un van.": {
+    "en": "Private driver service based in Cassis: airport/station transfers, excursions. Several vehicles, including a van.",
+    "de": "Fahrdienst mit Sitz in Cassis: Flughafen-/Bahnhofstransfers, Ausflüge. Mehrere Fahrzeuge, darunter ein Van."
+  },
+  "Réserver en ligne": {
+    "en": "Book online",
+    "de": "Online buchen"
+  },
+  "Nos partenaires": {
+    "en": "Our partners",
+    "de": "Unsere Partner"
+  },
+  "Réserver vos activités": {
+    "en": "Book your activities",
+    "de": "Buchen Sie Ihre Aktivitäten"
+  },
+  "Taxi, vélo, kayak, bateau — voici nos partenaires de confiance pour profiter de Cassis.": {
+    "en": "Taxi, bike, kayak, boat — here are our trusted partners for making the most of Cassis.",
+    "de": "Taxi, Fahrrad, Kajak, Boot — die Partner unseres Vertrauens, damit Sie Cassis in vollen Zügen genießen können."
+  },
+  "Événements · Festivals": {
+    "en": "Events · Festivals",
+    "de": "Veranstaltungen · Festivals"
+  },
+  "Agenda local": {
+    "en": "Local events",
+    "de": "Veranstaltungskalender"
+  },
+  "Marchés, Jazz Festival, Voiles de Cassis, Vendanges Étoilées... Tous les événements à venir à Cassis et aux alentours.": {
+    "en": "Markets, Jazz Festival, Voiles de Cassis, Vendanges Étoilées... All the upcoming events in and around Cassis.",
+    "de": "Märkte, Jazz Festival, Voiles de Cassis, Vendanges Étoilées... Alle anstehenden Veranstaltungen in Cassis und Umgebung."
+  },
+  "Agenda officiel de l'Office de Tourisme": {
+    "en": "The Tourist Office's official events calendar",
+    "de": "Offizieller Veranstaltungskalender des Tourismusbüros"
+  },
+  "Voir l'agenda": {
+    "en": "See what's on",
+    "de": "Zum Veranstaltungskalender"
+  },
+  "Sortie bateau · Apéro baignade": {
+    "en": "Boat trip · Aperitif & swim",
+    "de": "Bootsausflug · Aperitif & Baden"
+  },
+  "Bateau Canaille": {
+    "en": "Bateau Canaille",
+    "de": "Bateau Canaille",
+    "keep": "business name"
+  },
+  "Sortie en bateau partagée (non privative) dans les calanques de Port-Pin et En-Vau avec apéro et baignade. Embarquement avec d'autres voyageurs — idéal pour l'ambiance conviviale.": {
+    "en": "Shared (not private) boat trip to the calanques of Port-Pin and En-Vau, with an aperitif and a swim. You'll be on board with other travellers — ideal for a friendly atmosphere.",
+    "de": "Geteilter (nicht privater) Bootsausflug in die Calanques von Port-Pin und En-Vau mit Aperitif und Badestopp. Sie sind gemeinsam mit anderen Reisenden an Bord — ideal für eine gesellige Atmosphäre."
+  },
+  "30 € avec un verre de vin · Tous les soirs à 19h (juin → sept.)": {
+    "en": "30 € with a glass of wine · Every evening at 19h (June → Sept.)",
+    "de": "30 € mit einem Glas Wein · Jeden Abend um 19h (Juni → Sept.)"
+  },
+  "Réserver · 07.81.91.72.97": {
+    "en": "Book · 07.81.91.72.97",
+    "de": "Buchen · 07.81.91.72.97"
+  },
+  "Vélos électriques": {
+    "en": "Electric bikes",
+    "de": "E-Bikes"
+  },
+  "TROLIB": {
+    "en": "TROLIB",
+    "de": "TROLIB",
+    "keep": "business name"
+  },
+  "Le meilleur moyen pour visiter Cassis, les calanques et le Cap Canaille. TROLIB livre les vélos à votre domicile et vient les récupérer.": {
+    "en": "The best way to explore Cassis, the calanques and Cap Canaille. TROLIB delivers the bikes to your door and collects them afterwards.",
+    "de": "Die beste Art, Cassis, die Calanques und das Cap Canaille zu erkunden. TROLIB liefert die Räder direkt zu Ihrer Unterkunft und holt sie dort wieder ab."
+  },
+  "Livraison & récupération à domicile": {
+    "en": "Delivery & collection at your door",
+    "de": "Lieferung & Abholung an Ihrer Unterkunft"
+  },
+  "Découvrir TROLIB": {
+    "en": "Discover TROLIB",
+    "de": "TROLIB entdecken"
+  },
+  "Kayak · Calanques": {
+    "en": "Kayak · Calanques",
+    "de": "Kajak · Calanques",
+    "keep": "English word (kayak) spelled as in French, and a place name"
+  },
+  "Cassis Kayak": {
+    "en": "Cassis Kayak",
+    "de": "Cassis Kayak",
+    "keep": "business name"
+  },
+  "Une belle façon de découvrir des endroits paradisiaques et inaccessibles par d'autres moyens. Sorties guidées dans les calanques.": {
+    "en": "A lovely way to discover idyllic spots that can't be reached any other way. Guided trips in the calanques.",
+    "de": "Eine wunderbare Art, paradiesische Orte zu entdecken, die anders kaum erreichbar sind. Geführte Touren in den Calanques."
+  },
+  "En savoir plus": {
+    "en": "Find out more",
+    "de": "Mehr erfahren"
+  },
+  "Location de bateaux": {
+    "en": "Boat hire",
+    "de": "Bootsverleih"
+  },
+  "JCF Boat": {
+    "en": "JCF Boat",
+    "de": "JCF Boat",
+    "keep": "business name"
+  },
+  "Réservez en ligne, même à la dernière minute : coques rigides, semi-rigides, bateaux sans permis ou électriques. Large choix et conseils personnalisés.": {
+    "en": "Book online, even at the last minute: hard-hull boats, RIBs, licence-free or electric boats. A wide choice and personal advice.",
+    "de": "Buchen Sie online, auch kurzfristig: Boote mit festem Rumpf, Festrumpfschlauchboote, führerscheinfreie oder elektrische Boote. Große Auswahl und persönliche Beratung."
+  },
+  "Vin": {
+    "en": "Wine",
+    "de": "Wein"
+  },
+  "Les vins de Cassis": {
+    "en": "The wines of Cassis",
+    "de": "Die Weine von Cassis"
+  },
+  "Cassis abrite l'une des plus anciennes appellations de France (AOC depuis 1936). Ses blancs secs et ses rosés sont réputés — à déguster directement chez les vignerons.": {
+    "en": "Cassis is home to one of the oldest wine appellations in France (AOC since 1936). Its dry whites and rosés are renowned — taste them directly at the winegrowers' estates.",
+    "de": "Cassis besitzt eine der ältesten Weinbau-Appellationen Frankreichs (AOC seit 1936). Seine trockenen Weißweine und Rosés sind berühmt — probieren Sie sie direkt bei den Winzern."
+  },
+  "Domaine du Bagnol": {
+    "en": "Domaine du Bagnol",
+    "de": "Domaine du Bagnol",
+    "keep": "wine estate name"
+  },
+  "Blanc · Rosé · Rouge · Bio": {
+    "en": "White · Rosé · Red · Organic",
+    "de": "Weiß · Rosé · Rot · Bio"
+  },
+  "Blancs, rosés et rouges marqués par la fraîcheur et la minéralité du terroir. Agriculture biologique. Accessible à pied depuis le centre-ville, parking sur le domaine. Formule dégustation.": {
+    "en": "Whites, rosés and reds marked by the freshness and minerality of the terroir. Organic farming. Within walking distance of the town centre, parking on the estate. Tasting package available.",
+    "de": "Weiß-, Rosé- und Rotweine, geprägt von der Frische und Mineralität des Terroirs. Biologischer Anbau. Zu Fuß vom Ortszentrum erreichbar, Parkplatz auf dem Weingut. Angebot mit Weinprobe."
+  },
+  "Sur rendez-vous uniquement · Lundi → vendredi": {
+    "en": "By appointment only · Monday → Friday",
+    "de": "Nur nach Vereinbarung · Montag → Freitag"
+  },
+  "Découvrir le domaine": {
+    "en": "Discover the estate",
+    "de": "Weingut entdecken"
+  },
+  "Clos Sainte-Magdeleine": {
+    "en": "Clos Sainte-Magdeleine",
+    "de": "Clos Sainte-Magdeleine",
+    "keep": "wine estate name"
+  },
+  "Blanc · Rosé · Bio": {
+    "en": "White · Rosé · Organic",
+    "de": "Weiß · Rosé · Bio"
+  },
+  "Réputé pour ses blancs d'exception parmi les meilleurs de l'appellation. Accessible à pied depuis le centre-ville, pas de parking sur le domaine. Vente à la cave.": {
+    "en": "Renowned for its exceptional whites, among the finest in the appellation. Within walking distance of the town centre, no parking on the estate. Sales at the cellar.",
+    "de": "Bekannt für außergewöhnliche Weißweine, die zu den besten der Appellation zählen. Zu Fuß vom Ortszentrum erreichbar, kein Parkplatz auf dem Weingut. Verkauf im Weinkeller."
+  },
+  "Caveau : mardi → samedi, 10h-12h30 / 14h30-18h": {
+    "en": "Cellar door: Tuesday → Saturday, 10h-12h30 / 14h30-18h",
+    "de": "Probierkeller: Dienstag → Samstag, 10h-12h30 / 14h30-18h"
+  },
+  "Clos de Fontcreuse": {
+    "en": "Clos de Fontcreuse",
+    "de": "Clos de Fontcreuse",
+    "keep": "wine estate name"
+  },
+  "Une référence pour ses rouges, parmi les plus appréciés de l'appellation. Belle gamme de blancs et rosés également. Pas accessible à pied depuis le centre-ville, parking sur le domaine. Vente à la cave.": {
+    "en": "A benchmark for its reds, among the most highly regarded in the appellation. A fine range of whites and rosés too. Not within walking distance of the town centre, parking on the estate. Sales at the cellar.",
+    "de": "Eine Referenz für seine Rotweine, die zu den beliebtesten der Appellation gehören. Auch eine schöne Auswahl an Weiß- und Roséweinen. Zu Fuß vom Ortszentrum nicht erreichbar, Parkplatz auf dem Weingut. Verkauf im Weinkeller."
+  },
+  "Caveau : lundi → samedi, 9h30-12h30 / 14h30-18h30": {
+    "en": "Cellar door: Monday → Saturday, 9h30-12h30 / 14h30-18h30",
+    "de": "Probierkeller: Montag → Samstag, 9h30-12h30 / 14h30-18h30"
+  },
+  "Conseil": {
+    "en": "Tip",
+    "de": "Tipp"
+  },
+  "— Les dégustations au caveau sont généralement gratuites et sans obligation d’achat. Privilégiez le matin pour éviter l’affluence en été.": {
+    "en": "— Tastings at the cellar door are usually free, with no obligation to buy. Go in the morning to avoid the summer crowds.",
+    "de": "— Weinproben im Probierkeller sind in der Regel kostenlos und ohne Kaufverpflichtung. Kommen Sie am besten vormittags, um dem Andrang im Sommer zu entgehen."
+  },
+  "Nature": {
+    "en": "Outdoors",
+    "de": "Natur"
+  },
+  "Se promener dans les Calanques": {
+    "en": "Walking in the Calanques",
+    "de": "Wandern in den Calanques"
+  },
+  "Calanque d'En-Vau à Cassis, falaises blanches et eaux turquoise": {
+    "en": "The Calanque d'En-Vau in Cassis, with white cliffs and turquoise water",
+    "de": "Die Calanque d'En-Vau bei Cassis mit weißen Felsen und türkisfarbenem Wasser"
+  },
+  "Les calanques de Cassis comptent parmi les plus beaux paysages naturels de France. Eaux turquoise, falaises blanches, pins parasols — un décor à couper le souffle.": {
+    "en": "The calanques of Cassis are among the most beautiful natural landscapes in France. Turquoise water, white cliffs, umbrella pines — a breathtaking setting.",
+    "de": "Die Calanques von Cassis zählen zu den schönsten Naturlandschaften Frankreichs. Türkisfarbenes Wasser, weiße Klippen, Schirmpinien — eine atemberaubende Kulisse."
+  },
+  "Pour préparer vos randonnées, nous vous recommandons l'application officielle du Parc National des Calanques :": {
+    "en": "To plan your hikes, we recommend the official app of the Calanques National Park:",
+    "de": "Für die Planung Ihrer Wanderungen empfehlen wir Ihnen die offizielle App des Nationalparks Calanques:"
+  },
+  "MesCalanques": {
+    "en": "MesCalanques",
+    "de": "MesCalanques",
+    "keep": "app name"
+  },
+  "Attention": {
+    "en": "Please note",
+    "de": "Achtung"
+  },
+  "— À certaines périodes et selon le vent (mistral), les accès aux calanques sont réglementés ou interdits. Consultez l'application avant de partir.": {
+    "en": "— At certain times of year and depending on the wind (mistral), access to the calanques is restricted or closed. Check the app before you set off.",
+    "de": "— Zu bestimmten Zeiten und je nach Wind (Mistral) ist der Zugang zu den Calanques eingeschränkt oder gesperrt. Bitte prüfen Sie vor dem Aufbruch die App."
+  },
+  "Logo officiel de l'application Mes Calanques": {
+    "en": "Official logo of the Mes Calanques app",
+    "de": "Offizielles Logo der App Mes Calanques"
+  },
+  "L'app officielle du Parc National des Calanques": {
+    "en": "The official app of the Calanques National Park",
+    "de": "Die offizielle App des Nationalparks Calanques"
+  },
+  "Randonnées": {
+    "en": "Hiking",
+    "de": "Wandern"
+  },
+  "Géolocalisation": {
+    "en": "Geolocation",
+    "de": "Ortung"
+  },
+  "Risque incendie": {
+    "en": "Fire risk",
+    "de": "Waldbrandgefahr"
+  },
+  "Réservation Sugiton": {
+    "en": "Sugiton booking",
+    "de": "Sugiton-Reservierung"
+  },
+  "Routes fermées": {
+    "en": "Road closures",
+    "de": "Straßensperrungen"
+  },
+  "App Store": {
+    "en": "App Store",
+    "de": "App Store",
+    "keep": "brand name"
+  },
+  "Google Play": {
+    "en": "Google Play",
+    "de": "Google Play",
+    "keep": "brand name"
+  },
+  "Escapades": {
+    "en": "Day trips",
+    "de": "Ausflüge"
+  },
+  "À visiter autour de Cassis": {
+    "en": "Places to visit around Cassis",
+    "de": "Ausflugsziele rund um Cassis"
+  },
+  "Cassis est idéalement situé pour explorer la Provence. Voici nos coups de cœur.": {
+    "en": "Cassis is ideally placed for exploring Provence. Here are our favourites.",
+    "de": "Cassis ist der ideale Ausgangspunkt, um die Provence zu erkunden. Hier sind unsere Lieblingsziele."
+  },
+  "15 min en voiture": {
+    "en": "15 min by car",
+    "de": "15 min mit dem Auto"
+  },
+  "La Ciotat & Route des Crêtes": {
+    "en": "La Ciotat & Route des Crêtes",
+    "de": "La Ciotat & Route des Crêtes",
+    "keep": "place names"
+  },
+  "Prenez la route des Crêtes (15 km panoramiques, falaises de 400 m). Visitez la calanque de Figuerolles, le Mugel et la vieille ville. Route piétonne chaque dimanche.": {
+    "en": "Take the Route des Crêtes (15 km of panoramic road, 400 m cliffs). Visit the Calanque de Figuerolles, Le Mugel and the old town. The road is car-free every Sunday.",
+    "de": "Fahren Sie die Route des Crêtes entlang (15 km Panoramastraße, 400 m hohe Klippen). Besuchen Sie die Calanque de Figuerolles, den Mugel und die Altstadt. Sonntags ist die Straße autofrei."
+  },
+  "30 min": {
+    "en": "30 min",
+    "de": "30 min",
+    "keep": "travel time (number and unit as in French)"
+  },
+  "Marseille": {
+    "en": "Marseille",
+    "de": "Marseille",
+    "keep": "place name"
+  },
+  "Le Vieux-Port, le Panier, le Mucem et la Grotte Cosquer (18 €, réservation en ligne).": {
+    "en": "The Vieux-Port, Le Panier, the Mucem and the Grotte Cosquer (18 €, book online).",
+    "de": "Der Vieux-Port, das Panier-Viertel, das Mucem und die Grotte Cosquer (18 €, Online-Reservierung)."
+  },
+  "45 min": {
+    "en": "45 min",
+    "de": "45 min",
+    "keep": "travel time (number and unit as in French)"
+  },
+  "Aix-en-Provence": {
+    "en": "Aix-en-Provence",
+    "de": "Aix-en-Provence",
+    "keep": "place name"
+  },
+  "La vieille ville, le Cours Mirabeau, et les expositions au Caumont Centre d'Art.": {
+    "en": "The old town, the Cours Mirabeau and the exhibitions at the Caumont Centre d'Art.",
+    "de": "Die Altstadt, der Cours Mirabeau und die Ausstellungen im Caumont Centre d'Art."
+  },
+  "30 — 60 min": {
+    "en": "30 — 60 min",
+    "de": "30 — 60 min",
+    "keep": "travel time (numbers and unit as in French)"
+  },
+  "Le Var": {
+    "en": "The Var",
+    "de": "Das Var"
+  },
+  "Le village du Castellet, la Cadière d'Azur, Sanary-sur-Mer, Bormes-les-Mimosas, Le Lavandou — la côte varoise dans toute sa splendeur.": {
+    "en": "The village of Le Castellet, La Cadière d'Azur, Sanary-sur-Mer, Bormes-les-Mimosas, Le Lavandou — the Var coast in all its splendour.",
+    "de": "Das Dorf Le Castellet, La Cadière d'Azur, Sanary-sur-Mer, Bormes-les-Mimosas, Le Lavandou — die Küste des Var in ihrer ganzen Pracht."
+  },
+  "1h — 2h": {
+    "en": "1h — 2h",
+    "de": "1h — 2h",
+    "keep": "travel time (numbers and unit as in French)"
+  },
+  "Plus loin...": {
+    "en": "Further afield...",
+    "de": "Weiter entfernt..."
+  },
+  "Avignon, le Luberon, les Gorges du Verdon, la lavande à Valensole (mi-juin à fin août).": {
+    "en": "Avignon, the Luberon, the Gorges du Verdon, the lavender at Valensole (mid-June to late August).",
+    "de": "Avignon, der Luberon, die Gorges du Verdon, der Lavendel in Valensole (Mitte Juni bis Ende August)."
+  },
+  "Instagram": {
+    "en": "Instagram",
+    "de": "Instagram",
+    "keep": "brand name"
+  },
+  "Suivez-nous": {
+    "en": "Follow us",
+    "de": "Folgen Sie uns"
+  },
+  "@dodo_a_cassis": {
+    "en": "@dodo_a_cassis",
+    "de": "@dodo_a_cassis",
+    "keep": "Instagram handle"
+  },
+  "Photos de Cassis, coulisses, bons plans et couchers de soleil sur le port.": {
+    "en": "Photos of Cassis, behind the scenes, insider tips and sunsets over the harbour.",
+    "de": "Fotos von Cassis, Blicke hinter die Kulissen, Insidertipps und Sonnenuntergänge am Hafen."
+  },
+  "Voir notre Instagram": {
+    "en": "See our Instagram",
+    "de": "Zu unserem Instagram"
+  },
+  "Suivez-nous sur Instagram": {
+    "en": "Follow us on Instagram",
+    "de": "Folgen Sie uns auf Instagram"
+  },
+  "Conciergerie et gestion locative courte durée à Cassis. 64 biens gérés, 3 112 avis, 7 ans d'expérience locale.": {
+    "en": "Concierge and short-term rental management in Cassis. 64 properties managed, 3 112 reviews, 7 years of local experience.",
+    "de": "Concierge-Service und Verwaltung von Ferienunterkünften in Cassis. 64 betreute Unterkünfte, 3 112 Bewertungen, 7 Jahre Erfahrung vor Ort."
+  },
+  "Facebook": {
+    "en": "Facebook",
+    "de": "Facebook",
+    "keep": "brand name"
+  },
+  "Airbnb": {
+    "en": "Airbnb",
+    "de": "Airbnb",
+    "keep": "brand name"
+  },
+  "Site web": {
+    "en": "Website",
+    "de": "Website"
+  },
+  "Navigation": {
+    "en": "Navigation",
+    "de": "Navigation",
+    "keep": "same word in English and German"
+  },
+  "Carte interactive": {
+    "en": "Interactive map",
+    "de": "Interaktive Karte"
+  },
+  "Transports": {
+    "en": "Transport",
+    "de": "Mobilität"
+  },
+  "Vins de Cassis": {
+    "en": "Cassis wines",
+    "de": "Weine aus Cassis"
+  },
+  "La Ciotat": {
+    "en": "La Ciotat",
+    "de": "La Ciotat",
+    "keep": "place name"
+  },
+  "Le Var & Provence": {
+    "en": "The Var & Provence",
+    "de": "Das Var & die Provence"
+  },
+  "Liens utiles": {
+    "en": "Useful links",
+    "de": "Nützliche Links"
+  },
+  "Office de Tourisme": {
+    "en": "Tourist Office",
+    "de": "Tourismusbüro"
+  },
+  "© 2026 La Conciergerie Cassidaine — Dodo à Cassis": {
+    "en": "© 2026 La Conciergerie Cassidaine — Dodo à Cassis",
+    "de": "© 2026 La Conciergerie Cassidaine — Dodo à Cassis",
+    "keep": "company and brand names"
+  },
+  "SIRET 844 284 810 · RCS Marseille": {
+    "en": "SIRET 844 284 810 · RCS Marseille",
+    "de": "SIRET 844 284 810 · RCS Marseille",
+    "keep": "company registration numbers"
+  },
+  "Aix-en-Provence — Dodo à Cassis": {
+    "en": "Aix-en-Provence — Dodo à Cassis",
+    "de": "Aix-en-Provence — Dodo à Cassis",
+    "keep": "place name and brand name (page title)"
+  },
+  "Accueil": {
+    "en": "Home",
+    "de": "Startseite"
+  },
+  "Le Var & la Provence": {
+    "en": "The Var & Provence",
+    "de": "Das Var & die Provence"
+  },
+  "Retour au guide": {
+    "en": "Back to the guide",
+    "de": "Zurück zum Reiseführer"
+  },
+  "Ville d'art, d'eau et de lumière. Aix-en-Provence séduit par son élégance provençale, ses fontaines et l'héritage de Cézanne.": {
+    "en": "A city of art, water and light. Aix-en-Provence charms visitors with its Provençal elegance, its fountains and the legacy of Cézanne.",
+    "de": "Stadt der Kunst, des Wassers und des Lichts. Aix-en-Provence verführt mit provenzalischer Eleganz, seinen Brunnen und dem Erbe Cézannes."
+  },
+  "45 min en voiture depuis Cassis": {
+    "en": "45 min by car from Cassis",
+    "de": "45 min mit dem Auto ab Cassis"
+  },
+  "Ancienne capitale de la Provence,": {
+    "en": "Once the capital of Provence,",
+    "de": "Als ehemalige Hauptstadt der Provence ist"
+  },
+  "est une ville qui se déguste. Les terrasses du Cours Mirabeau, les fontaines qui murmurent à chaque coin de rue, les hôtels particuliers du XVIIe siècle et la lumière qui a inspiré Cézanne. Prévoyez une journée entière pour profiter de ses marchés, musées et boutiques.": {
+    "en": "is a city to be savoured. The café terraces of the Cours Mirabeau, fountains murmuring on every street corner, 17th-century mansions and the light that inspired Cézanne. Allow a whole day to enjoy its markets, museums and shops.",
+    "de": "eine Stadt zum Genießen. Die Terrassen am Cours Mirabeau, die an jeder Straßenecke plätschernden Brunnen, die Stadtpaläste aus dem 17. Jahrhundert und das Licht, das Cézanne inspirierte. Planen Sie einen ganzen Tag ein, um Märkte, Museen und Boutiquen in Ruhe zu erkunden."
+  },
+  "À découvrir": {
+    "en": "Things to see",
+    "de": "Sehenswertes"
+  },
+  "Les incontournables": {
+    "en": "The must-sees",
+    "de": "Die Highlights"
+  },
+  "Art, patrimoine et art de vivre — l'essence de la Provence.": {
+    "en": "Art, heritage and the art of living — the essence of Provence.",
+    "de": "Kunst, Kulturerbe und Lebensart — die Essenz der Provence."
+  },
+  "Promenade sur le Cours Mirabeau à Aix-en-Provence": {
+    "en": "Strolling along the Cours Mirabeau in Aix-en-Provence",
+    "de": "Spaziergang über den Cours Mirabeau in Aix-en-Provence"
+  },
+  "Incontournable": {
+    "en": "Must-see",
+    "de": "Ein Muss"
+  },
+  "Le Cours Mirabeau": {
+    "en": "The Cours Mirabeau",
+    "de": "Der Cours Mirabeau"
+  },
+  "La plus célèbre avenue d'Aix, bordée de platanes centenaires, de cafés historiques (Les Deux Garçons) et de fontaines. Promenez-vous et prenez un café en terrasse — le rendez-vous des Aixois depuis le XVIIe siècle.": {
+    "en": "Aix's most famous avenue, lined with century-old plane trees, historic cafés (Les Deux Garçons) and fountains. Take a stroll and enjoy a coffee on a terrace — the meeting place of the people of Aix since the 17th century.",
+    "de": "Die berühmteste Allee von Aix, gesäumt von hundertjährigen Platanen, historischen Cafés (Les Deux Garçons) und Brunnen. Flanieren Sie und trinken Sie einen Kaffee auf einer Terrasse — seit dem 17. Jahrhundert der Treffpunkt der Einwohner von Aix."
+  },
+  "Terrasses, fontaines et platanes centenaires": {
+    "en": "Terraces, fountains and century-old plane trees",
+    "de": "Terrassen, Brunnen und hundertjährige Platanen"
+  },
+  "Fontaine dans la vieille ville d'Aix-en-Provence": {
+    "en": "A fountain in the old town of Aix-en-Provence",
+    "de": "Brunnen in der Altstadt von Aix-en-Provence"
+  },
+  "La vieille ville et les fontaines": {
+    "en": "The old town and its fountains",
+    "de": "Die Altstadt und ihre Brunnen"
+  },
+  "Aix est surnommée la « ville aux mille fontaines ». Déambulez dans les rues piétonnes, découvrez les hôtels particuliers, la cathédrale Saint-Sauveur et les places ombragées. Chaque recoin réserve une surprise.": {
+    "en": "Aix is nicknamed the ‘city of a thousand fountains’. Wander through the pedestrian streets and discover the grand mansions, Saint-Sauveur Cathedral and the shady squares. Every corner holds a surprise.",
+    "de": "Aix trägt den Beinamen „Stadt der tausend Brunnen“. Schlendern Sie durch die Fußgängerstraßen und entdecken Sie die Stadtpaläste, die Kathedrale Saint-Sauveur und die schattigen Plätze. Hinter jeder Ecke wartet eine Überraschung."
+  },
+  "Comptez 2 à 3 heures de flânerie": {
+    "en": "Allow 2 to 3 hours for a leisurely wander",
+    "de": "Rechnen Sie mit 2 bis 3 Stunden zum Bummeln"
+  },
+  "Hôtel particulier du XVIIIe siècle à Aix-en-Provence": {
+    "en": "An 18th-century mansion in Aix-en-Provence",
+    "de": "Stadtpalais aus dem 18. Jahrhundert in Aix-en-Provence"
+  },
+  "Coup de cœur": {
+    "en": "Our favourite",
+    "de": "Unser Favorit"
+  },
+  "Caumont Centre d'Art": {
+    "en": "Caumont Centre d'Art",
+    "de": "Caumont Centre d'Art",
+    "keep": "name of the art centre"
+  },
+  "Hôtel particulier du XVIIIe siècle magnifiquement restauré, accueillant des expositions d'art temporaires de renommée internationale. Jardins à la française, salon de thé et vidéo immersive sur la Provence de Cézanne.": {
+    "en": "A beautifully restored 18th-century mansion hosting internationally renowned temporary art exhibitions. Formal French gardens, a tearoom and an immersive film about Cézanne's Provence.",
+    "de": "Ein prachtvoll restauriertes Stadtpalais aus dem 18. Jahrhundert mit international renommierten Wechselausstellungen. Französische Gärten, ein Teesalon und ein immersiver Film über die Provence Cézannes."
+  },
+  "Expositions en cours": {
+    "en": "Current exhibitions",
+    "de": "Aktuelle Ausstellungen"
+  },
+  "Champs de lavande et paysage de Provence, inspiration de Cézanne": {
+    "en": "Lavender fields and Provençal landscape, Cézanne's inspiration",
+    "de": "Lavendelfelder und provenzalische Landschaft, Cézannes Inspiration"
+  },
+  "L'Atelier Cézanne": {
+    "en": "The Atelier Cézanne",
+    "de": "Das Atelier Cézanne"
+  },
+  "L'atelier du maître, conservé tel qu'il l'a quitté. Objets, chevalets, et la lumière qui a inspiré ses natures mortes. Sur les hauteurs d'Aix, avec vue sur la Sainte-Victoire — le motif obsessionnel du peintre.": {
+    "en": "The master's studio, preserved just as he left it. His objects, easels and the light that inspired his still lifes. In the hills above Aix, with a view of the Sainte-Victoire — the painter's obsessive motif.",
+    "de": "Das Atelier des Meisters, so erhalten, wie er es verlassen hat. Gegenstände, Staffeleien und das Licht, das seine Stillleben inspirierte. Auf den Anhöhen von Aix, mit Blick auf die Sainte-Victoire — das obsessive Motiv des Malers."
+  },
+  "Infos & réservation": {
+    "en": "Info & booking",
+    "de": "Infos & Reservierung"
+  },
+  "Marché provençal avec ses étals colorés": {
+    "en": "A Provençal market with colourful stalls",
+    "de": "Provenzalischer Markt mit bunten Ständen"
+  },
+  "Les marchés d'Aix": {
+    "en": "The markets of Aix",
+    "de": "Die Märkte von Aix"
+  },
+  "Place Richelme": {
+    "en": "Place Richelme",
+    "de": "Place Richelme",
+    "keep": "square name"
+  },
+  "— marché alimentaire quotidien avec les producteurs locaux.": {
+    "en": "— daily food market with local producers.",
+    "de": "— täglicher Lebensmittelmarkt mit Erzeugern aus der Region."
+  },
+  "Place des Prêcheurs": {
+    "en": "Place des Prêcheurs",
+    "de": "Place des Prêcheurs",
+    "keep": "square name"
+  },
+  "— marché aux fleurs et artisanat. Le mardi, jeudi et samedi, c'est le grand marché sur toute la vieille ville.": {
+    "en": "— flower and craft market. On Tuesdays, Thursdays and Saturdays, the big market spreads across the whole old town.",
+    "de": "— Blumen- und Kunsthandwerksmarkt. Dienstags, donnerstags und samstags erstreckt sich der große Markt über die ganze Altstadt."
+  },
+  "Tous les jours place Richelme — Grand marché : mar, jeu, sam": {
+    "en": "Every day on Place Richelme — Big market: Tue, Thu, Sat",
+    "de": "Täglich auf der Place Richelme — Großer Markt: Di, Do, Sa"
+  },
+  "Envie de découvrir d'autres destinations ?": {
+    "en": "Fancy discovering more destinations?",
+    "de": "Lust auf weitere Ausflugsziele?"
+  },
+  "Retrouvez toutes nos recommandations dans le guide complet.": {
+    "en": "Find all our recommendations in the full guide.",
+    "de": "Alle unsere Empfehlungen finden Sie im vollständigen Reiseführer."
+  },
+  "Retour au guide complet": {
+    "en": "Back to the full guide",
+    "de": "Zurück zum vollständigen Reiseführer"
+  },
+  "À visiter": {
+    "en": "Places to visit",
+    "de": "Ausflugsziele"
+  },
+  "Guide complet": {
+    "en": "Full guide",
+    "de": "Vollständiger Reiseführer"
+  },
+  "Le Var & la Provence — Dodo à Cassis": {
+    "en": "The Var & Provence — Dodo à Cassis",
+    "de": "Das Var & die Provence — Dodo à Cassis"
+  },
+  "Le Var &": {
+    "en": "The Var &",
+    "de": "Das Var &"
+  },
+  "la Provence": {
+    "en": "Provence",
+    "de": "die Provence"
+  },
+  "Villages perchés, champs de lavande, gorges spectaculaires et côte sauvage — la Provence dans toute sa diversité, à portee de Cassis.": {
+    "en": "Hilltop villages, lavender fields, spectacular gorges and a wild coastline — Provence in all its diversity, within easy reach of Cassis.",
+    "de": "Bergdörfer, Lavendelfelder, spektakuläre Schluchten und wilde Küsten — die Provence in all ihrer Vielfalt, ganz in der Nähe von Cassis."
+  },
+  "De 30 min à 2h selon la destination": {
+    "en": "From 30 min to 2h, depending on the destination",
+    "de": "30 min bis 2h, je nach Ziel"
+  },
+  "Cassis est un camp de base idéal pour explorer la Provence. À moins d'une heure, la côte varoise dévoile ses villages de caractère. En poussant un peu plus loin, les": {
+    "en": "Cassis is an ideal base for exploring Provence. Less than an hour away, the Var coast reveals its characterful villages. Venture a little further and the",
+    "de": "Cassis ist ein idealer Ausgangspunkt, um die Provence zu erkunden. In weniger als einer Stunde erreichen Sie die Küste des Var mit ihren charaktervollen Dörfern. Etwas weiter entfernt bieten die"
+  },
+  "champs de lavande de Valensole": {
+    "en": "lavender fields of Valensole",
+    "de": "Lavendelfelder von Valensole"
+  },
+  ", les": {
+    "en": ", the",
+    "de": ", die"
+  },
+  "Gorges du Verdon": {
+    "en": "Gorges du Verdon",
+    "de": "Gorges du Verdon",
+    "keep": "place name"
+  },
+  "villages du Luberon": {
+    "en": "villages of the Luberon",
+    "de": "Dörfer des Luberon"
+  },
+  "et la cité des Papes offrent des excursions inoubliables.": {
+    "en": "and the City of Popes make for unforgettable excursions.",
+    "de": "und die Stadt der Päpste unvergessliche Ausflüge."
+  },
+  "La côte varoise": {
+    "en": "The Var coast",
+    "de": "Die Küste des Var"
+  },
+  "Villages perchés, ports de pêche et vignobles — le Var est la Provence comme on l'imagine.": {
+    "en": "Hilltop villages, fishing ports and vineyards — the Var is Provence just as you imagine it.",
+    "de": "Bergdörfer, Fischerhäfen und Weinberge — das Var ist die Provence, wie Sie sie sich vorstellen."
+  },
+  "Village médiéval perché en Provence": {
+    "en": "A medieval hilltop village in Provence",
+    "de": "Mittelalterliches Bergdorf in der Provence"
+  },
+  "Le Castellet": {
+    "en": "Le Castellet",
+    "de": "Le Castellet",
+    "keep": "place name"
+  },
+  "Village médiéval perché avec vue imprenable sur les vignobles de Bandol et la mer. Ruelles pavées, ateliers d'artisans, église du XIIe siècle. L'un des plus beaux villages de la région.": {
+    "en": "A medieval hilltop village with stunning views over the Bandol vineyards and the sea. Cobbled lanes, craft workshops, a 12th-century church. One of the most beautiful villages in the region.",
+    "de": "Mittelalterliches Bergdorf mit atemberaubendem Blick über die Weinberge von Bandol und das Meer. Gepflasterte Gassen, Kunsthandwerksateliers, eine Kirche aus dem 12. Jahrhundert. Eines der schönsten Dörfer der Region."
+  },
+  "30 min depuis Cassis — Parking gratuit en contrebas": {
+    "en": "30 min from Cassis — Free parking below the village",
+    "de": "30 min ab Cassis — Kostenloser Parkplatz unterhalb des Dorfes"
+  },
+  "Ruelle fleurie d'un village perché de Provence": {
+    "en": "A flower-filled lane in a Provençal hilltop village",
+    "de": "Blumengeschmückte Gasse in einem Bergdorf der Provence"
+  },
+  "La Cadière d'Azur": {
+    "en": "La Cadière d'Azur",
+    "de": "La Cadière d'Azur",
+    "keep": "place name"
+  },
+  "Village perché voisin du Castellet, moins touristique mais tout aussi charmant. Vue panoramique sur la baie de Bandol, ruelles fleuries et excellents restaurants. Cœur de l'appellation Bandol.": {
+    "en": "A hilltop village next to Le Castellet, less touristy but just as charming. Panoramic views over the Bay of Bandol, flower-filled lanes and excellent restaurants. The heart of the Bandol appellation.",
+    "de": "Bergdorf in der Nachbarschaft von Le Castellet, weniger touristisch, aber ebenso charmant. Panoramablick über die Bucht von Bandol, blumengeschmückte Gassen und ausgezeichnete Restaurants. Herzstück der Appellation Bandol."
+  },
+  "30 min depuis Cassis — Combinez avec Le Castellet": {
+    "en": "30 min from Cassis — Combine it with Le Castellet",
+    "de": "30 min ab Cassis — Gut mit Le Castellet kombinierbar"
+  },
+  "Port coloré de Sanary-sur-Mer": {
+    "en": "The colourful harbour of Sanary-sur-Mer",
+    "de": "Der bunte Hafen von Sanary-sur-Mer"
+  },
+  "Sanary-sur-Mer": {
+    "en": "Sanary-sur-Mer",
+    "de": "Sanary-sur-Mer",
+    "keep": "place name"
+  },
+  "Port de pêche coloré et animé, bateaux pointus traditionnels, marché provençal (le mercredi est époustouflant). Plongée, balade sur le port et gastronomie maritime.": {
+    "en": "A colourful, lively fishing port with traditional ‘pointu’ boats and a Provençal market (Wednesday's is breathtaking). Diving, strolls around the harbour and seafood cuisine.",
+    "de": "Bunter, lebhafter Fischerhafen mit traditionellen Pointu-Booten und provenzalischem Markt (der Mittwochsmarkt ist atemberaubend). Tauchen, Bummeln am Hafen und maritime Küche."
+  },
+  "40 min depuis Cassis — Marché le mercredi matin": {
+    "en": "40 min from Cassis — Market on Wednesday mornings",
+    "de": "40 min ab Cassis — Markt am Mittwochvormittag"
+  },
+  "Vue panoramique de Bormes-les-Mimosas, village perché sur la colline avec les montagnes varoises en arrière-plan": {
+    "en": "Panoramic view of Bormes-les-Mimosas, a hilltop village with the mountains of the Var in the background",
+    "de": "Panoramablick auf Bormes-les-Mimosas, ein Dorf auf dem Hügel mit den Bergen des Var im Hintergrund"
+  },
+  "1h depuis Cassis": {
+    "en": "1h from Cassis",
+    "de": "1h ab Cassis"
+  },
+  "Bormes-les-Mimosas & Le Lavandou": {
+    "en": "Bormes-les-Mimosas & Le Lavandou",
+    "de": "Bormes-les-Mimosas & Le Lavandou",
+    "keep": "place names"
+  },
+  "Bormes, village fleuri accroché à la colline, est un bijou de la côte varoise. Le Lavandou, en contrebas, offre 12 plages de sable fin et un accès aux îles d'Hyères (Porquerolles, Port-Cros).": {
+    "en": "Bormes, a flower-decked village clinging to the hillside, is a gem of the Var coast. Le Lavandou, just below, has 12 fine sandy beaches and access to the Îles d'Hyères (Porquerolles, Port-Cros).",
+    "de": "Bormes, ein blumengeschmücktes Dorf am Hang, ist ein Juwel der Küste des Var. Das tiefer gelegene Le Lavandou bietet 12 feine Sandstrände und Zugang zu den Îles d'Hyères (Porquerolles, Port-Cros)."
+  },
+  "Navettes vers Porquerolles depuis Le Lavandou": {
+    "en": "Ferries to Porquerolles from Le Lavandou",
+    "de": "Fähren nach Porquerolles ab Le Lavandou"
+  },
+  "1h30 — 2h": {
+    "en": "1h30 — 2h",
+    "de": "1h30 — 2h",
+    "keep": "travel time (numbers and unit as in French)"
+  },
+  "Plus loin en Provence": {
+    "en": "Further afield in Provence",
+    "de": "Weiter entfernt in der Provence"
+  },
+  "Pour les journées où vous avez envie d'aventure — des excursions qui valent chaque kilomètre.": {
+    "en": "For the days when you're in the mood for adventure — excursions that are worth every kilometre.",
+    "de": "Für Tage, an denen Sie Lust auf Abenteuer haben — Ausflüge, die jeden Kilometer wert sind."
+  },
+  "Palais des Papes à Avignon": {
+    "en": "The Palais des Papes in Avignon",
+    "de": "Der Palais des Papes in Avignon"
+  },
+  "1h30 depuis Cassis": {
+    "en": "1h30 from Cassis",
+    "de": "1h30 ab Cassis"
+  },
+  "Avignon, cité des Papes": {
+    "en": "Avignon, City of Popes",
+    "de": "Avignon, Stadt der Päpste"
+  },
+  "Le Palais des Papes, plus grand palais gothique du monde, le Pont d'Avignon et les remparts médiévaux. En juillet, le célèbre Festival d'Avignon transforme la ville en scène à ciel ouvert.": {
+    "en": "The Palais des Papes, the largest Gothic palace in the world, the Pont d'Avignon and the medieval ramparts. In July, the famous Festival d'Avignon turns the city into an open-air stage.",
+    "de": "Der Palais des Papes, der größte gotische Palast der Welt, die Pont d'Avignon und die mittelalterlichen Stadtmauern. Im Juli verwandelt das berühmte Festival d'Avignon die Stadt in eine Freilichtbühne."
+  },
+  "Palais des Papes": {
+    "en": "Palais des Papes",
+    "de": "Palais des Papes",
+    "keep": "monument name"
+  },
+  "Village de Gordes perché dans le Luberon": {
+    "en": "The hilltop village of Gordes in the Luberon",
+    "de": "Das Bergdorf Gordes im Luberon"
+  },
+  "Les villages du Luberon": {
+    "en": "The villages of the Luberon",
+    "de": "Die Dörfer des Luberon"
+  },
+  "Gordes": {
+    "en": "Gordes",
+    "de": "Gordes",
+    "keep": "place name"
+  },
+  ", classé plus beau village de France, avec ses maisons de pierre en cascade.": {
+    "en": ", listed among the ‘Most Beautiful Villages of France’, with its tumbling stone houses.",
+    "de": ", eines der „schönsten Dörfer Frankreichs“, mit seinen kaskadenartig angeordneten Steinhäusern."
+  },
+  "Roussillon": {
+    "en": "Roussillon",
+    "de": "Roussillon",
+    "keep": "place name"
+  },
+  "et ses falaises d'ocre flamboyantes.": {
+    "en": "and its blazing ochre cliffs.",
+    "de": "mit seinen leuchtenden Ockerfelsen."
+  },
+  "Bonnieux": {
+    "en": "Bonnieux",
+    "de": "Bonnieux",
+    "keep": "place name"
+  },
+  "et ses panoramas sur la vallée. Un circuit d'une journée inoubliable.": {
+    "en": "and its views over the valley. An unforgettable day trip.",
+    "de": "mit seinem Panoramablick über das Tal. Eine unvergessliche Tagestour."
+  },
+  "1h30 depuis Cassis — Prévoir la journée complète": {
+    "en": "1h30 from Cassis — Allow a full day",
+    "de": "1h30 ab Cassis — Planen Sie einen ganzen Tag ein"
+  },
+  "Eaux turquoise des Gorges du Verdon": {
+    "en": "Turquoise water in the Gorges du Verdon",
+    "de": "Türkisfarbenes Wasser in den Gorges du Verdon"
+  },
+  "2h depuis Cassis": {
+    "en": "2h from Cassis",
+    "de": "2h ab Cassis"
+  },
+  "Les Gorges du Verdon": {
+    "en": "The Gorges du Verdon",
+    "de": "Die Gorges du Verdon"
+  },
+  "Le « Grand Canyon » européen. Falaises de 700 mètres, eaux turquoise du lac de Sainte-Croix, kayak, randonnée et route des Crêtes vertigineuse. Un spectacle naturel à couper le souffle.": {
+    "en": "Europe's ‘Grand Canyon’. 700-metre cliffs, the turquoise water of the Lac de Sainte-Croix, kayaking, hiking and the dizzying Route des Crêtes. A breathtaking natural spectacle.",
+    "de": "Der „Grand Canyon“ Europas. 700 Meter hohe Felswände, das türkisfarbene Wasser des Lac de Sainte-Croix, Kajakfahren, Wandern und die schwindelerregende Route des Crêtes. Ein atemberaubendes Naturschauspiel."
+  },
+  "Kayak, pédalo et baignade au lac de Sainte-Croix": {
+    "en": "Kayaking, pedalos and swimming at the Lac de Sainte-Croix",
+    "de": "Kajak, Tretboot und Baden am Lac de Sainte-Croix"
+  },
+  "Champs de lavande sur le plateau de Valensole": {
+    "en": "Lavender fields on the Valensole plateau",
+    "de": "Lavendelfelder auf der Hochebene von Valensole"
+  },
+  "Saisonnier": {
+    "en": "Seasonal",
+    "de": "Saisonal"
+  },
+  "Le plateau de Valensole": {
+    "en": "The Valensole plateau",
+    "de": "Die Hochebene von Valensole"
+  },
+  "De": {
+    "en": "From",
+    "de": "Von"
+  },
+  "mi-juin à fin août": {
+    "en": "mid-June to late August",
+    "de": "Mitte Juni bis Ende August"
+  },
+  ", le plateau se couvre d'un océan de lavande mauve à perte de vue. Parfums enivrants, distilleries, marchés de producteurs. Le moment idéal : fin juin à mi-juillet pour la pleine floraison.": {
+    "en": ", the plateau is covered in an ocean of mauve lavender as far as the eye can see. Heady scents, distilleries, farmers' markets. The ideal time: late June to mid-July, for the full bloom.",
+    "de": " verwandelt sich die Hochebene in ein Meer aus violettem Lavendel, so weit das Auge reicht. Betörende Düfte, Destillerien, Bauernmärkte. Die beste Zeit: Ende Juni bis Mitte Juli, zur vollen Blüte."
+  },
+  "1h30 depuis Cassis — Mi-juin à fin août uniquement": {
+    "en": "1h30 from Cassis — Mid-June to late August only",
+    "de": "1h30 ab Cassis — Nur Mitte Juni bis Ende August"
+  },
+  "La Ciotat & Route des Crêtes — Dodo à Cassis": {
+    "en": "La Ciotat & Route des Crêtes — Dodo à Cassis",
+    "de": "La Ciotat & Route des Crêtes — Dodo à Cassis",
+    "keep": "place names and brand name (page title)"
+  },
+  "La Ciotat &": {
+    "en": "La Ciotat &",
+    "de": "La Ciotat &",
+    "keep": "place name"
+  },
+  "Route des Crêtes": {
+    "en": "Route des Crêtes",
+    "de": "Route des Crêtes",
+    "keep": "place name"
+  },
+  "À seulement 15 minutes de Cassis, La Ciotat offre des panoramas spectaculaires, des criques sauvages et un charme provençal authentique.": {
+    "en": "Just 15 minutes from Cassis, La Ciotat offers spectacular views, wild coves and authentic Provençal charm.",
+    "de": "Nur 15 Minuten von Cassis entfernt bietet La Ciotat spektakuläre Ausblicke, wilde Buchten und authentischen provenzalischen Charme."
+  },
+  "15 min en voiture depuis Cassis": {
+    "en": "15 min by car from Cassis",
+    "de": "15 min mit dem Auto ab Cassis"
+  },
+  "La Ciotat, ville voisine de Cassis, est célèbre pour ses falaises vertigineuses, ses calanques préservées et son patrimoine cinématographique — c'est ici que les frères Lumière ont filmé": {
+    "en": "La Ciotat, the town next door to Cassis, is famous for its dizzying cliffs, unspoilt calanques and cinema heritage — it was here that the Lumière brothers filmed",
+    "de": "La Ciotat, die Nachbarstadt von Cassis, ist berühmt für ihre schwindelerregenden Klippen, ihre unberührten Calanques und ihr Filmerbe — hier drehten die Brüder Lumière"
+  },
+  "L'Arrivée d'un train en gare de La Ciotat": {
+    "en": "L'Arrivée d'un train en gare de La Ciotat",
+    "de": "L'Arrivée d'un train en gare de La Ciotat",
+    "keep": "film title"
+  },
+  ". La route des Crêtes, qui relie Cassis à La Ciotat, est l'une des plus belles routes panoramiques de France.": {
+    "en": " (The Arrival of a Train at La Ciotat Station). The Route des Crêtes, which links Cassis and La Ciotat, is one of the most beautiful panoramic roads in France.",
+    "de": " (Die Ankunft eines Zuges auf dem Bahnhof in La Ciotat). Die Route des Crêtes, die Cassis mit La Ciotat verbindet, ist eine der schönsten Panoramastraßen Frankreichs."
+  },
+  "De la route panoramique aux criques cachées, chaque arrêt réserve une surprise.": {
+    "en": "From the panoramic road to hidden coves, every stop holds a surprise.",
+    "de": "Von der Panoramastraße bis zu versteckten Buchten — jeder Halt hält eine Überraschung bereit."
+  },
+  "Vue panoramique de la Route des Crêtes au Cap Canaille, falaises et méditerranée au coucher du soleil": {
+    "en": "Panoramic view from the Route des Crêtes at Cap Canaille, cliffs and the Mediterranean at sunset",
+    "de": "Panoramablick von der Route des Crêtes am Cap Canaille, Klippen und Mittelmeer bei Sonnenuntergang"
+  },
+  "La Route des Crêtes": {
+    "en": "The Route des Crêtes",
+    "de": "Die Route des Crêtes"
+  },
+  "15 kilomètres de route panoramique entre Cassis et La Ciotat, culminant à 400 mètres d'altitude sur les falaises du Cap Canaille — les plus hautes falaises maritimes de France. Vues imprenables sur la mer, les îles et les calanques.": {
+    "en": "15 kilometres of panoramic road between Cassis and La Ciotat, rising to 400 metres above sea level on the cliffs of Cap Canaille — the highest sea cliffs in France. Stunning views over the sea, the islands and the calanques.",
+    "de": "15 Kilometer Panoramastraße zwischen Cassis und La Ciotat, die auf den Klippen des Cap Canaille bis auf 400 Meter Höhe ansteigt — die höchsten Meeresklippen Frankreichs. Atemberaubende Ausblicke auf das Meer, die Inseln und die Calanques."
+  },
+  "Piétonne tous les dimanches — idéal pour la rando ou le vélo": {
+    "en": "Car-free every Sunday — ideal for walking or cycling",
+    "de": "Jeden Sonntag autofrei — ideal zum Wandern oder Radfahren"
+  },
+  "Découvrir la route": {
+    "en": "Discover the road",
+    "de": "Die Route entdecken"
+  },
+  "Calanque de Figuerolles avec le Rocher du Capucin, eau turquoise et falaises de pudding": {
+    "en": "The Calanque de Figuerolles with the Rocher du Capucin, turquoise water and puddingstone cliffs",
+    "de": "Die Calanque de Figuerolles mit dem Rocher du Capucin, türkisfarbenem Wasser und Puddingstein-Klippen"
+  },
+  "Calanque de Figuerolles": {
+    "en": "Calanque de Figuerolles",
+    "de": "Calanque de Figuerolles",
+    "keep": "place name"
+  },
+  "Une petite crique encaissée entre les rochers, accessible à pied depuis le centre de La Ciotat. Eau cristalline, roches sculptées par l'érosion et le célèbre « rocher du Capucin » en sentinelle.": {
+    "en": "A small cove tucked between the rocks, within walking distance of the centre of La Ciotat. Crystal-clear water, rocks sculpted by erosion and the famous ‘Rocher du Capucin’ standing guard.",
+    "de": "Eine kleine, zwischen Felsen eingebettete Bucht, zu Fuß vom Zentrum von La Ciotat erreichbar. Kristallklares Wasser, von der Erosion geformte Felsen und der berühmte „Rocher du Capucin“, der Wache hält."
+  },
+  "Accès à pied — 15 min depuis le Mugel": {
+    "en": "On foot — 15 min from Le Mugel",
+    "de": "Zu Fuß — 15 min vom Mugel"
+  },
+  "Calanque du Mugel à La Ciotat, eau turquoise nichée entre les falaises de poudingue": {
+    "en": "The Calanque du Mugel in La Ciotat, turquoise water nestled between puddingstone cliffs",
+    "de": "Die Calanque du Mugel in La Ciotat, türkisfarbenes Wasser zwischen Puddingstein-Klippen"
+  },
+  "Calanque du Mugel": {
+    "en": "Calanque du Mugel",
+    "de": "Calanque du Mugel",
+    "keep": "place name"
+  },
+  "Petite crique aux eaux turquoise, nichée au pied du Bec de l'Aigle et abritée par les falaises de poudingue. On y accède à travers le parc botanique classé (jardin exotique, sentiers ombragés). Plage de galets idéale pour la baignade et le snorkeling.": {
+    "en": "A small cove with turquoise water, nestled at the foot of the Bec de l'Aigle and sheltered by puddingstone cliffs. You reach it through a listed botanical park (exotic garden, shady paths). A pebble beach that's ideal for swimming and snorkelling.",
+    "de": "Kleine Bucht mit türkisfarbenem Wasser am Fuß des Bec de l'Aigle, geschützt von Puddingstein-Klippen. Sie erreichen sie durch einen denkmalgeschützten botanischen Park (exotischer Garten, schattige Wege). Kieselstrand, ideal zum Baden und Schnorcheln."
+  },
+  "Accès gratuit par le parc — Ouvert toute l'année": {
+    "en": "Free access through the park — Open all year round",
+    "de": "Freier Zugang durch den Park — Ganzjährig geöffnet"
+  },
+  "Vieux port de La Ciotat avec l'église Notre-Dame-de-l'Assomption et ses façades colorées": {
+    "en": "The old harbour of La Ciotat with the church of Notre-Dame-de-l'Assomption and its colourful façades",
+    "de": "Der alte Hafen von La Ciotat mit der Kirche Notre-Dame-de-l'Assomption und bunten Fassaden"
+  },
+  "Vieille ville de La Ciotat": {
+    "en": "La Ciotat old town",
+    "de": "Altstadt von La Ciotat"
+  },
+  "Ruelles colorées, places ombragées, église Notre-Dame-de-l'Assomption et le vieux port de pêche. Ne manquez pas le marché du dimanche matin sur le port. Une balade charmante et authentique.": {
+    "en": "Colourful lanes, shady squares, the church of Notre-Dame-de-l'Assomption and the old fishing harbour. Don't miss the Sunday morning market on the harbour. A charming, authentic stroll.",
+    "de": "Bunte Gassen, schattige Plätze, die Kirche Notre-Dame-de-l'Assomption und der alte Fischerhafen. Verpassen Sie nicht den Markt am Sonntagvormittag am Hafen. Ein charmanter, authentischer Spaziergang."
+  },
+  "Flânez 1 à 2 heures dans le centre historique": {
+    "en": "Spend 1 to 2 hours wandering the historic centre",
+    "de": "Bummeln Sie 1 bis 2 Stunden durch das historische Zentrum"
+  },
+  "L'Île Verte vue depuis la côte, eau turquoise et agaves au premier plan": {
+    "en": "The Île Verte seen from the coast, with turquoise water and agaves in the foreground",
+    "de": "Die Île Verte von der Küste aus gesehen, mit türkisfarbenem Wasser und Agaven im Vordergrund"
+  },
+  "À ne pas manquer": {
+    "en": "Not to be missed",
+    "de": "Nicht verpassen"
+  },
+  "L'Île Verte": {
+    "en": "The Île Verte",
+    "de": "Die Île Verte"
+  },
+  "Seule île boisée de Provence, accessible en bateau depuis le port de La Ciotat (15 min de traversée). Sentiers de randonnée, criques pour la baignade et un restaurant sur l'île. Un petit paradis.": {
+    "en": "The only wooded island in Provence, reached by boat from the port of La Ciotat (a 15 min crossing). Walking trails, coves for swimming and a restaurant on the island. A little paradise.",
+    "de": "Die einzige bewaldete Insel der Provence, mit dem Boot ab dem Hafen von La Ciotat erreichbar (15 min Überfahrt). Wanderwege, Badebuchten und ein Restaurant auf der Insel. Ein kleines Paradies."
+  },
+  "Navette depuis le port — 15 min de traversée": {
+    "en": "Shuttle boat from the harbour — 15 min crossing",
+    "de": "Shuttleboot ab dem Hafen — 15 min Überfahrt"
+  },
+  "Marseille — Dodo à Cassis": {
+    "en": "Marseille — Dodo à Cassis",
+    "de": "Marseille — Dodo à Cassis",
+    "keep": "place name and brand name (page title)"
+  },
+  "La cité phocéenne, plus ancienne ville de France, offre un mélange envoûtant de culture, d'histoire et de Mediterranée — à seulement 30 minutes de Cassis.": {
+    "en": "The Phocaean city, the oldest in France, offers a captivating blend of culture, history and the Mediterranean — just 30 minutes from Cassis.",
+    "de": "Die Stadt der Phokäer, die älteste Stadt Frankreichs, bietet eine bezaubernde Mischung aus Kultur, Geschichte und Mittelmeerflair — nur 30 Minuten von Cassis entfernt."
+  },
+  "30 min en voiture depuis Cassis": {
+    "en": "30 min by car from Cassis",
+    "de": "30 min mit dem Auto ab Cassis"
+  },
+  "Marseille est une ville qui se vit. Du": {
+    "en": "Marseille is a city to be experienced. From the",
+    "de": "Marseille will erlebt werden. Vom"
+  },
+  "Vieux-Port": {
+    "en": "Vieux-Port",
+    "de": "Vieux-Port",
+    "keep": "place name (Marseille's old port)"
+  },
+  "au": {
+    "en": "to the",
+    "de": "zum"
+  },
+  "quartier du Panier": {
+    "en": "Panier quarter",
+    "de": "Panier-Viertel"
+  },
+  ", des musées d'exception aux calanques sauvages, chaque coin de rue raconte 2 600 ans d'histoire. Profitez de votre séjour à Cassis pour consacrer une journée à la découverte de cette métropole méditerranéenne.": {
+    "en": ", from outstanding museums to wild calanques, every street corner tells 2 600 years of history. Make the most of your stay in Cassis to spend a day discovering this Mediterranean metropolis.",
+    "de": ", von außergewöhnlichen Museen bis zu wilden Calanques erzählt jede Straßenecke 2 600 Jahre Geschichte. Nutzen Sie Ihren Aufenthalt in Cassis, um einen Tag lang diese Mittelmeermetropole zu entdecken."
+  },
+  "Patrimoine, musées, nature et gastronomie — Marseille a tout pour plaire.": {
+    "en": "Heritage, museums, nature and food — Marseille has it all.",
+    "de": "Kulturerbe, Museen, Natur und Gastronomie — Marseille hat alles, was das Herz begehrt."
+  },
+  "Ruelle colorée du quartier du Panier à Marseille": {
+    "en": "A colourful lane in the Panier quarter of Marseille",
+    "de": "Bunte Gasse im Panier-Viertel von Marseille"
+  },
+  "Le quartier du Panier": {
+    "en": "The Panier quarter",
+    "de": "Das Panier-Viertel"
+  },
+  "Plus vieux quartier de Marseille et de France. Ruelles étroites, street art, ateliers d'artistes, boutiques indépendantes et la majestueuse Vieille Charité. Un village dans la ville.": {
+    "en": "The oldest quarter of Marseille — and of France. Narrow lanes, street art, artists' studios, independent shops and the majestic Vieille Charité. A village within the city.",
+    "de": "Das älteste Viertel Marseilles und Frankreichs. Enge Gassen, Street-Art, Künstlerateliers, unabhängige Boutiquen und die majestätische Vieille Charité. Ein Dorf in der Stadt."
+  },
+  "Prévoir 2 à 3 heures de balade": {
+    "en": "Allow 2 to 3 hours to explore on foot",
+    "de": "Planen Sie 2 bis 3 Stunden für den Rundgang ein"
+  },
+  "Le Mucem et le Vieux-Port de Marseille": {
+    "en": "The Mucem and the Vieux-Port in Marseille",
+    "de": "Das Mucem und der Vieux-Port in Marseille"
+  },
+  "Le Mucem": {
+    "en": "The Mucem",
+    "de": "Das Mucem"
+  },
+  "Musée des Civilisations de l'Europe et de la Méditerranée — architecture spectaculaire signée Rudy Ricciotti. Collections permanentes et expositions temporaires dans un bâtiment iconique au bord de l'eau.": {
+    "en": "The Museum of European and Mediterranean Civilisations — spectacular architecture by Rudy Ricciotti. Permanent collections and temporary exhibitions in an iconic waterfront building.",
+    "de": "Museum der Zivilisationen Europas und des Mittelmeerraums — spektakuläre Architektur von Rudy Ricciotti. Dauer- und Wechselausstellungen in einem ikonischen Gebäude direkt am Wasser."
+  },
+  "Site officiel du Mucem": {
+    "en": "Mucem official website",
+    "de": "Offizielle Website des Mucem"
+  },
+  "Fort Saint-Jean à Marseille, forteresse du XVIIe siècle à l'entrée du Vieux-Port": {
+    "en": "Fort Saint-Jean in Marseille, a 17th-century fortress at the entrance to the Vieux-Port",
+    "de": "Fort Saint-Jean in Marseille, Festung aus dem 17. Jahrhundert an der Einfahrt zum Vieux-Port"
+  },
+  "Le Fort Saint-Jean": {
+    "en": "Fort Saint-Jean",
+    "de": "Das Fort Saint-Jean"
+  },
+  "Forteresse du XVIIe siècle commandée par Louis XIV, gardant l'entrée du Vieux-Port. Relié au Mucem par une passerelle aérienne spectaculaire. Jardin des Migrations, points de vue imprenables sur la ville et la mer — et l'accès est libre.": {
+    "en": "A 17th-century fortress commissioned by Louis XIV, guarding the entrance to the Vieux-Port. Linked to the Mucem by a spectacular footbridge. The Jardin des Migrations, stunning viewpoints over the city and the sea — and entry is free.",
+    "de": "Festung aus dem 17. Jahrhundert, von Louis XIV in Auftrag gegeben, die die Einfahrt zum Vieux-Port bewacht. Über eine spektakuläre Fußgängerbrücke mit dem Mucem verbunden. Der Jardin des Migrations, atemberaubende Aussichtspunkte über Stadt und Meer — und der Eintritt ist frei."
+  },
+  "Accès gratuit — Passerelle vers le Mucem": {
+    "en": "Free entry — Footbridge to the Mucem",
+    "de": "Freier Eintritt — Fußgängerbrücke zum Mucem"
+  },
+  "Panneau des chevaux de la grotte Cosquer, peinture rupestre vieille de 33 000 ans reproduite à Cosquer Méditerranée": {
+    "en": "The horse panel from the Cosquer cave, a 33 000-year-old cave painting reproduced at Cosquer Méditerranée",
+    "de": "Pferdefries aus der Grotte Cosquer, eine 33 000 Jahre alte Höhlenmalerei, nachgebildet in Cosquer Méditerranée"
+  },
+  "Cosquer Méditerranée": {
+    "en": "Cosquer Méditerranée",
+    "de": "Cosquer Méditerranée",
+    "keep": "name of the venue"
+  },
+  "Réplique immersive de la grotte Cosquer, découverte sous la mer dans les calanques. Art rupestre vieux de 33 000 ans, visite en modules autonomes. Une expérience unique et spectaculaire pour toute la famille.": {
+    "en": "An immersive replica of the Cosquer cave, discovered beneath the sea in the calanques. 33 000-year-old cave art, explored aboard self-driving pods. A unique, spectacular experience for the whole family.",
+    "de": "Immersive Nachbildung der Grotte Cosquer, die unter dem Meer in den Calanques entdeckt wurde. 33 000 Jahre alte Höhlenkunst, Besichtigung in selbstfahrenden Kabinen. Ein einzigartiges, spektakuläres Erlebnis für die ganze Familie."
+  },
+  "18 € adulte · 11 € (10-17 ans) · 6 € (6-9 ans)": {
+    "en": "18 € adults · 11 € (ages 10-17) · 6 € (ages 6-9)",
+    "de": "18 € Erwachsene · 11 € (10-17 Jahre) · 6 € (6-9 Jahre)"
+  },
+  "Calanque de Sormiou à Marseille, eau turquoise nichée entre les falaises calcaires": {
+    "en": "The Calanque de Sormiou in Marseille, turquoise water nestled between limestone cliffs",
+    "de": "Die Calanque de Sormiou in Marseille, türkisfarbenes Wasser zwischen Kalksteinklippen"
+  },
+  "Les calanques de Marseille": {
+    "en": "The calanques of Marseille",
+    "de": "Die Calanques von Marseille"
+  },
+  "Sormiou et Morgiou, les grandes sœurs des calanques de Cassis. Accès en voiture limité en saison, privilégiez la randonnée. Paysages à couper le souffle et baignade dans des criques sauvages.": {
+    "en": "Sormiou and Morgiou, the big sisters of the Cassis calanques. Car access is restricted in season, so it's best to walk in. Breathtaking scenery and swimming in wild coves.",
+    "de": "Sormiou und Morgiou, die großen Schwestern der Calanques von Cassis. Die Zufahrt mit dem Auto ist in der Saison eingeschränkt, kommen Sie am besten zu Fuß. Atemberaubende Landschaften und Baden in wilden Buchten."
+  },
+  "Accès voiture limité en été — App MesCalanques recommandée": {
+    "en": "Limited car access in summer — MesCalanques app recommended",
+    "de": "Eingeschränkte Zufahrt im Sommer — App MesCalanques empfohlen"
+  },
+  "Basilique Notre-Dame de la Garde dominant Marseille": {
+    "en": "The Basilica of Notre-Dame de la Garde overlooking Marseille",
+    "de": "Die Basilika Notre-Dame de la Garde über Marseille"
+  },
+  "Notre-Dame de la Garde": {
+    "en": "Notre-Dame de la Garde",
+    "de": "Notre-Dame de la Garde",
+    "keep": "name of the basilica"
+  },
+  "La « Bonne Mère », sentinelle de Marseille, domine la ville à 154 mètres d'altitude. Panorama à 360° sur la ville, le port, les îles du Frioul et les calanques. Entrée libre.": {
+    "en": "The ‘Bonne Mère’ (Good Mother), Marseille's guardian, towers over the city at 154 metres above sea level. 360° panorama over the city, the port, the Frioul islands and the calanques. Free entry.",
+    "de": "Die „Bonne Mère“ (Gute Mutter), Wächterin von Marseille, thront 154 Meter hoch über der Stadt. 360°-Panorama über die Stadt, den Hafen, die Frioul-Inseln und die Calanques. Eintritt frei."
+  },
+  "Accès en voiture, bus ou à pied — Entrée libre": {
+    "en": "By car, bus or on foot — Free entry",
+    "de": "Mit dem Auto, Bus oder zu Fuß — Eintritt frei"
+  }
+}
