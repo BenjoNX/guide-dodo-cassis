@@ -372,14 +372,21 @@
             });
         });
 
-        // Language switch: open the other language at the section being read
+        // Language switch: open the other language at the section being read, or at the anchor of
+        // the address bar while its target is on screen (the last sections never reach the top).
+        // Without JavaScript the flags still open the same page in the other language.
         const langLinks = document.querySelectorAll('.lang-switch a');
         const anchoredSections = document.querySelectorAll('section[id]');
         const syncLangLinks = () => {
-            let hash = anchoredSections.length ? '' : location.hash;
+            let hash = '';
             anchoredSections.forEach(section => {
                 if (section.getBoundingClientRect().top <= nav.offsetHeight + 1) hash = '#' + section.id;
             });
+            const target = location.hash.length > 1 && document.getElementById(location.hash.slice(1));
+            if (target) {
+                const box = target.getBoundingClientRect();
+                if (!anchoredSections.length || (box.bottom > nav.offsetHeight && box.top < innerHeight)) hash = location.hash;
+            }
             langLinks.forEach(link => {
                 link.setAttribute('href', link.getAttribute('href').split('#')[0] + hash);
             });
@@ -387,6 +394,8 @@
         syncLangLinks();
         window.addEventListener('scroll', syncLangLinks, { passive: true });
         window.addEventListener('hashchange', syncLangLinks);
+        window.addEventListener('resize', syncLangLinks);
+        langLinks.forEach(link => link.addEventListener('click', syncLangLinks));
     </script>
 
 </body>
