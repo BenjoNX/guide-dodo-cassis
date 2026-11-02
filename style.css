@@ -304,6 +304,14 @@ section {
     box-shadow: 0 0 0 1px var(--white), 0 0 0 3px var(--gold);
 }
 
+/* High contrast modes drop box shadows: an outline keeps the current language marked */
+@media (forced-colors: active) {
+    .lang-switch__item--current .lang-switch__flag {
+        outline: 2px solid CanvasText;
+        outline-offset: 1px;
+    }
+}
+
 /* ========================================
    HERO
    ======================================== */
