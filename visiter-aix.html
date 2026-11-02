@@ -30,9 +30,9 @@
                 <li><a href="https://dodo-a-cassis.com" target="_blank">Nos locations</a></li>
             </ul>
             <div class="lang-switch" role="group" aria-label="Langue">
-                <span class="lang-switch__item lang-switch__item--current" lang="fr" title="Français" aria-current="true">FR</span>
-                <a href="en/visiter-aix.html" class="lang-switch__item" hreflang="en" lang="en" title="English">EN</a>
-                <a href="de/visiter-aix.html" class="lang-switch__item" hreflang="de" lang="de" title="Deutsch">DE</a>
+                <a href="visiter-aix.html" class="lang-switch__item lang-switch__item--current" hreflang="fr" lang="fr" title="Français" aria-label="Français" aria-current="page"><img src="flags/fr.svg" alt="Français" width="21" height="14" class="lang-switch__flag"></a>
+                <a href="en/visiter-aix.html" class="lang-switch__item" hreflang="en" lang="en" title="English" aria-label="English"><img src="flags/gb.svg" alt="English" width="21" height="14" class="lang-switch__flag"></a>
+                <a href="de/visiter-aix.html" class="lang-switch__item" hreflang="de" lang="de" title="Deutsch" aria-label="Deutsch"><img src="flags/de.svg" alt="Deutsch" width="21" height="14" class="lang-switch__flag"></a>
             </div>
             <button class="nav__mobile-toggle" id="mobileToggle" aria-label="Menu">
                 <span></span>
@@ -287,14 +287,21 @@
             });
         });
 
-        // Language switch: open the other language at the section being read
+        // Language switch: open the other language at the section being read, or at the anchor of
+        // the address bar while its target is on screen (the last sections never reach the top).
+        // Without JavaScript the flags still open the same page in the other language.
         const langLinks = document.querySelectorAll('.lang-switch a');
         const anchoredSections = document.querySelectorAll('section[id]');
         const syncLangLinks = () => {
-            let hash = anchoredSections.length ? '' : location.hash;
+            let hash = '';
             anchoredSections.forEach(section => {
                 if (section.getBoundingClientRect().top <= nav.offsetHeight + 1) hash = '#' + section.id;
             });
+            const target = location.hash.length > 1 && document.getElementById(location.hash.slice(1));
+            if (target) {
+                const box = target.getBoundingClientRect();
+                if (!anchoredSections.length || (box.bottom > nav.offsetHeight && box.top < innerHeight)) hash = location.hash;
+            }
             langLinks.forEach(link => {
                 link.setAttribute('href', link.getAttribute('href').split('#')[0] + hash);
             });
@@ -302,6 +309,8 @@
         syncLangLinks();
         window.addEventListener('scroll', syncLangLinks, { passive: true });
         window.addEventListener('hashchange', syncLangLinks);
+        window.addEventListener('resize', syncLangLinks);
+        langLinks.forEach(link => link.addEventListener('click', syncLangLinks));
     </script>
 
 </body>

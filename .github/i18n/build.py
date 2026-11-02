@@ -8,8 +8,9 @@ the French text. Asset paths get a "../" prefix so they still resolve from the
 sub-folders.
 
 The script also keeps two blocks in sync on every page, French included: the
-FR / EN / DE language switch in the navigation and the hreflang links in the
-head. A new French page therefore only needs its strings translated.
+FR / EN / DE language switch in the navigation (one flag per language) and the
+hreflang links in the head. A new French page therefore only needs its strings
+translated.
 
 Usage (from anywhere, Python 3.8+ standard library only):
 
@@ -34,6 +35,9 @@ LANGUAGES = {'fr': 'fr', 'en': 'en-GB', 'de': 'de'}
 TARGETS = ('en', 'de')
 LANGUAGE_NAMES = {'fr': 'Français', 'en': 'English', 'de': 'Deutsch'}
 SWITCH_LABELS = {'fr': 'Langue', 'en': 'Language', 'de': 'Sprache'}
+# Flag of each language in the switch, from the site root. The English guide is in British English.
+FLAGS = {'fr': 'flags/fr.svg', 'en': 'flags/gb.svg', 'de': 'flags/de.svg'}
+FLAG_SIZE = (21, 14)
 
 TRANSLATABLE_ATTRIBUTES = ('alt', 'title', 'aria-label')
 
@@ -89,14 +93,17 @@ def hreflang_block(page, indent):
 
 
 def switch_block(lang, page, indent):
+    """One flag link per language to the same page; the current language links to the page itself."""
+    up = '' if lang == 'fr' else '../'
     lines = ['\n%s<div class="lang-switch" role="group" aria-label="%s">' % (indent, SWITCH_LABELS[lang])]
     for code in LANGUAGES:
-        attributes = 'lang="%s" title="%s"' % (code, LANGUAGE_NAMES[code])
-        if code == lang:
-            item = '<span class="lang-switch__item lang-switch__item--current" %s aria-current="true">%s</span>' % (attributes, code.upper())
-        else:
-            item = '<a href="%s" class="lang-switch__item" hreflang="%s" %s>%s</a>' % (relative_href(lang, code, page), code, attributes, code.upper())
-        lines.append('\n%s    %s' % (indent, item))
+        name = LANGUAGE_NAMES[code]
+        current = code == lang
+        href = page if current else relative_href(lang, code, page)
+        flag = '<img src="%s%s" alt="%s" width="%d" height="%d" class="lang-switch__flag">' % ((up, FLAGS[code], name) + FLAG_SIZE)
+        lines.append('\n%s    <a href="%s" class="lang-switch__item%s" hreflang="%s" lang="%s" title="%s" aria-label="%s"%s>%s</a>' % (
+            indent, href, ' lang-switch__item--current' if current else '', code, code, name, name,
+            ' aria-current="page"' if current else '', flag))
     lines.append('\n%s</div>' % indent)
     return ''.join(lines)
 
