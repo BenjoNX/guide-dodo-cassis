@@ -13,12 +13,16 @@ Exits with status 1 if a check fails:
   6. no French left in EN / DE: a string identical to the French one must carry a "keep"
      justification in translations.json, every other string is scanned for French words;
   7. German addresses the reader with "Sie" only, English uses British spelling.
+  8. the flag switch of every page: one link per language (FR, EN, DE) to the same page in that
+     language, with its flag, alt text and aria-label; only the current language is marked
+     (aria-current="page"); every flag is an SVG file of the site.
 
 Standard library only. Warnings (known issues inherited from the French pages) do not fail.
 """
 
 import re
 import sys
+import xml.etree.ElementTree as ElementTree
 from html.parser import HTMLParser
 from pathlib import Path
 
@@ -28,6 +32,10 @@ import build  # noqa: E402
 
 ROOT = build.ROOT
 VOID_ELEMENTS = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'source', 'track', 'wbr'}
+
+# The flag switch as specified, independently of build.py: flag file and name of each language
+# (France, United Kingdom for British English, Germany).
+SWITCH_SPEC = {'fr': ('flags/fr.svg', 'Français'), 'en': ('flags/gb.svg', 'English'), 'de': ('flags/de.svg', 'Deutsch')}
 
 # Anchors the French guide links to without defining them. Mirrored as is in EN / DE so the
 # three versions keep the same anchors; fixing them belongs to the French content.
@@ -78,6 +86,7 @@ class Page(HTMLParser):
         self.hreflang = []
         self.in_body = False
         self.switch_depth = None
+        self.switches = []        # attributes of each language switch, its links under 'links'
         self.feed(path.read_text(encoding='utf-8'))
         self.close()
         for tag, line in self.stack:
@@ -97,6 +106,11 @@ class Page(HTMLParser):
             self.ids.append(attributes['id'])
         if tag == 'div' and attributes.get('class') == 'lang-switch':
             self.switch_depth = len(self.stack)
+            self.switches.append(dict(attributes, links=[]))
+        elif self.in_switch() and tag == 'a':
+            self.switches[-1]['links'].append(dict(attributes, images=[]))
+        elif self.in_switch() and tag == 'img' and self.switches[-1]['links']:
+            self.switches[-1]['links'][-1]['images'].append(attributes)
         if tag == 'meta' and attributes.get('name') == 'description':
             self.description = attributes.get('content', '')
         if tag == 'link' and attributes.get('rel') == 'alternate' and 'hreflang' in attributes:
@@ -146,6 +160,62 @@ def strip_up(url):
     return url[3:] if url and url.startswith('../') else url
 
 
+def flag_errors():
+    """Every flag of the switch is an SVG file of the site."""
+    errors = []
+    for code, (flag, _) in SWITCH_SPEC.items():
+        path = ROOT / flag
+        try:
+            root = ElementTree.parse(path).getroot()
+        except (OSError, ElementTree.ParseError) as error:
+            errors.append('%s (flag of %s): %s' % (flag, code, error))
+            continue
+        if root.tag != '{http://www.w3.org/2000/svg}svg' or 'viewBox' not in root.attrib:
+            errors.append('%s (flag of %s) is not an SVG image with a viewBox' % (flag, code))
+    return errors
+
+
+def switch_errors(page, lang, name):
+    """8. One flag link per language to the same page, the current language marked. Returns (errors, links)."""
+    where = page.path.relative_to(ROOT)
+    if len(page.switches) != 1:
+        return ['%s: %d language switches, expected 1' % (where, len(page.switches))], 0
+    switch = page.switches[0]
+    errors = []
+    if switch.get('role') != 'group' or switch.get('aria-label') != build.SWITCH_LABELS[lang]:
+        errors.append('%s: language switch needs role="group" aria-label="%s"' % (where, build.SWITCH_LABELS[lang]))
+    codes = [link.get('hreflang') for link in switch['links']]
+    if codes != list(SWITCH_SPEC):
+        return errors + ['%s: language switch links %s, expected %s' % (where, codes, list(SWITCH_SPEC))], 0
+    for code, link in zip(SWITCH_SPEC, switch['links']):
+        flag_file, label = SWITCH_SPEC[code]
+        flag = '%s flag' % label
+        href = link.get('href', '')
+        expected = ROOT / ('' if code == 'fr' else code) / name
+        if '#' in href or (page.path.parent / href).resolve() != expected.resolve():
+            errors.append('%s: %s links to "%s", expected %s' % (where, flag, href, expected.relative_to(ROOT)))
+        if link.get('lang') != code:
+            errors.append('%s: %s has lang="%s", expected "%s"' % (where, flag, link.get('lang'), code))
+        if link.get('aria-label') != label or link.get('title') != label:
+            errors.append('%s: %s needs aria-label="%s" and title="%s"' % (where, flag, label, label))
+        current = code == lang
+        marked = link.get('aria-current') == 'page', 'lang-switch__item--current' in (link.get('class') or '').split()
+        if marked != (current, current):
+            errors.append('%s: %s should %sbe marked current (aria-current="page" and lang-switch__item--current)'
+                          % (where, flag, '' if current else 'not '))
+        if len(link['images']) != 1:
+            errors.append('%s: %s has %d images, expected 1' % (where, flag, len(link['images'])))
+            continue
+        image = link['images'][0]
+        if (page.path.parent / image.get('src', '')).resolve() != (ROOT / flag_file).resolve():
+            errors.append('%s: %s shows "%s", expected %s' % (where, flag, image.get('src'), flag_file))
+        if image.get('alt') != label:
+            errors.append('%s: %s image needs alt="%s"' % (where, flag, label))
+        if (image.get('width'), image.get('height')) != tuple(str(size) for size in build.FLAG_SIZE):
+            errors.append('%s: %s image needs width="%d" height="%d"' % ((where, flag) + build.FLAG_SIZE))
+    return errors, len(switch['links'])
+
+
 def pages():
     names = build.french_pages()
     return {lang: {name: ROOT / ('' if lang == 'fr' else lang) / name for name in names} for lang in build.LANGUAGES}
@@ -186,6 +256,8 @@ def main():
     parsed = {lang: {name: Page(path) for name, path in files.items() if path.exists()}
               for lang, files in pages().items()}
 
+    errors += flag_errors()
+    switch_links = 0
     for lang, files in parsed.items():
         for name, page in files.items():
             where = page.path.relative_to(ROOT)
@@ -227,6 +299,10 @@ def main():
                 local = ROOT / url[len(build.SITE_URL):]
                 if not (local / 'index.html' if url.endswith('/') else local).exists():
                     errors.append('%s: hreflang URL %s has no file' % (where, url))
+            # 8. Flag switch.
+            found, checked = switch_errors(page, lang, name)
+            errors += found
+            switch_links += checked
 
     for lang in build.TARGETS:
         for name, page in parsed[lang].items():
@@ -274,7 +350,7 @@ def main():
                 if french_markers(page.description, lang, keep_nouns) or (lang == 'de' and GERMAN_INFORMAL_RE.search(plain)):
                     errors.append('%s: meta description looks wrong: %r' % (where, page.description))
 
-    report(parsed, kept, warnings, errors)
+    report(parsed, kept, warnings, errors, switch_links)
     return 1 if errors else 0
 
 
@@ -286,9 +362,10 @@ def parsed_page(parsed, path):
     return None
 
 
-def report(parsed, kept, warnings, errors):
+def report(parsed, kept, warnings, errors, switch_links):
     count = sum(len(files) for files in parsed.values())
     print('Checked %d pages (%s).' % (count, ', '.join('%s: %d' % (lang, len(files)) for lang, files in parsed.items())))
+    print('Language switch: %d flag links checked (target page, flag, alt, aria-label, current language).' % switch_links)
     if kept:
         print('\nStrings kept identical to the French text in EN / DE (justification from translations.json):')
         for (text, note), langs in sorted(kept.items(), key=lambda item: (item[0][1], item[0][0])):
