@@ -31,10 +31,7 @@ VOID_ELEMENTS = {'area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'li
 
 # Anchors the French guide links to without defining them. Mirrored as is in EN / DE so the
 # three versions keep the same anchors; fixing them belongs to the French content.
-KNOWN_MISSING_ANCHORS = {
-    'visiter-environs.html#plus-loin': 'the "Plus loin..." card of the home page targets an id '
-                                       'that visiter-environs.html does not define (French page)',
-}
+KNOWN_MISSING_ANCHORS = {}
 
 # Proper nouns and loanwords allowed inside translated sentences (French spelling kept on purpose).
 PROPER_NOUNS = [
