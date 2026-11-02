@@ -1556,7 +1556,11 @@ a.lang-switch__item:hover {
         top: var(--nav-height);
         left: 0;
         right: 0;
-        bottom: 0;
+        /* The backdrop-filter of .nav makes it the containing block of this fixed panel: bottom: 0
+           would end the panel at the bottom of the bar, so its height comes from the viewport */
+        height: calc(100vh - var(--nav-height));
+        height: calc(100dvh - var(--nav-height));
+        overflow-y: auto;
         background: var(--white);
         flex-direction: column;
         padding: 2rem;
