@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guide pour séjourner à Cassis — Dodo à Cassis</title>
+    <link rel="alternate" hreflang="fr" href="https://guide.dodo-a-cassis.com/">
+    <link rel="alternate" hreflang="en" href="https://guide.dodo-a-cassis.com/en/">
+    <link rel="alternate" hreflang="de" href="https://guide.dodo-a-cassis.com/de/">
+    <link rel="alternate" hreflang="x-default" href="https://guide.dodo-a-cassis.com/">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,6 +37,11 @@
                 <li><a href="#visiter">Visiter</a></li>
                 <li><a href="https://dodo-a-cassis.com" target="_blank">Nos locations</a></li>
             </ul>
+            <div class="lang-switch" role="group" aria-label="Langue">
+                <span class="lang-switch__item lang-switch__item--current" lang="fr" title="Français" aria-current="true">FR</span>
+                <a href="en/index.html" class="lang-switch__item" hreflang="en" lang="en" title="English">EN</a>
+                <a href="de/index.html" class="lang-switch__item" hreflang="de" lang="de" title="Deutsch">DE</a>
+            </div>
             <button class="nav__mobile-toggle" id="mobileToggle" aria-label="Menu">
                 <span></span>
                 <span></span>
@@ -715,6 +724,22 @@
                 navLinks.classList.remove('open');
             });
         });
+
+        // Language switch: open the other language at the section being read
+        const langLinks = document.querySelectorAll('.lang-switch a');
+        const anchoredSections = document.querySelectorAll('section[id]');
+        const syncLangLinks = () => {
+            let hash = anchoredSections.length ? '' : location.hash;
+            anchoredSections.forEach(section => {
+                if (section.getBoundingClientRect().top <= nav.offsetHeight + 1) hash = '#' + section.id;
+            });
+            langLinks.forEach(link => {
+                link.setAttribute('href', link.getAttribute('href').split('#')[0] + hash);
+            });
+        };
+        syncLangLinks();
+        window.addEventListener('scroll', syncLangLinks, { passive: true });
+        window.addEventListener('hashchange', syncLangLinks);
     </script>
 
 </body>
