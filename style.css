@@ -301,7 +301,8 @@ section {
 
 .lang-switch__item--current .lang-switch__flag,
 .lang-switch__item--current:hover .lang-switch__flag {
-    box-shadow: 0 0 0 1px var(--white), 0 0 0 3px var(--gold);
+    /* Dark gold: 3.2:1 against the bar (the lighter gold is 2.3:1) */
+    box-shadow: 0 0 0 1px var(--white), 0 0 0 3px var(--gold-dark);
 }
 
 /* High contrast modes drop box shadows: an outline keeps the current language marked */

@@ -190,7 +190,7 @@ def switch_errors(page, lang, name):
     for code, link in zip(SWITCH_SPEC, switch['links']):
         flag_file, label = SWITCH_SPEC[code]
         flag = '%s flag' % label
-        href = link.get('href', '')
+        href = link.get('href') or ''
         expected = ROOT / ('' if code == 'fr' else code) / name
         if '#' in href or (page.path.parent / href).resolve() != expected.resolve():
             errors.append('%s: %s links to "%s", expected %s' % (where, flag, href, expected.relative_to(ROOT)))
@@ -207,7 +207,7 @@ def switch_errors(page, lang, name):
             errors.append('%s: %s has %d images, expected 1' % (where, flag, len(link['images'])))
             continue
         image = link['images'][0]
-        if (page.path.parent / image.get('src', '')).resolve() != (ROOT / flag_file).resolve():
+        if (page.path.parent / (image.get('src') or '')).resolve() != (ROOT / flag_file).resolve():
             errors.append('%s: %s shows "%s", expected %s' % (where, flag, image.get('src'), flag_file))
         if image.get('alt') != label:
             errors.append('%s: %s image needs alt="%s"' % (where, flag, label))
